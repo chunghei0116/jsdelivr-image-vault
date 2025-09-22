@@ -1,4 +1,12 @@
 {
-  "en": [{ "appTitle": "SWNAP" }, { "appdesc": "SWNAP" }],
-  "zh": [{ "appTitle": "SWNAP_ZH" }, { "appdesc": "SWNAP" }]
+  "en": [
+    { "language": "English" },
+    { "appTitle": "SWNAP" },
+    { "appdesc": "SWNAP" }
+  ],
+  "zh": [
+    { "language": "中文" },
+    { "appTitle": "SWNAP_ZH" },
+    { "appdesc": "SWNAP" }
+  ]
 }
