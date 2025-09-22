@@ -1,3 +1,4 @@
 {
-  "appTitle": "SWNAP"
+  "en": [{ "appTitle": "SWNAP" }, { "appdesc": "SWNAP" }],
+  "zh": [{ "appTitle": "SWNAP_ZH" }, { "appdesc": "SWNAP" }]
 }
