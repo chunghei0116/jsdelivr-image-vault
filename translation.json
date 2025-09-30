@@ -2,11 +2,35 @@
   "en": [
     { "language": "English" },
     { "appTitle": "SWNAP" },
-    { "appdesc": "SWNAP" }
+    { "appdesc": "SWNAP" },
+    { "settingsTitle": "Settings" },
+    { "darkModeTitle": "Dark Mode" },
+    { "languageTitle": "Language" },
+    { "versionTitle": "Version" },
+    { "binTitle": "Bin" },
+    { "noDeletedPhotos": "No deleted photos" },
+    { "permissionDenied": "Permission denied" },
+    { "grantPermission": "Grant Permission" },
+    { "noPhotoFound": "No photo found" },
+    { "noMorePhotos": "No more photos" },
+    { "unknownState": "Unknown state" },
+    { "temporaryPage": "Temporary Page" }
   ],
   "zh": [
     { "language": "中文" },
     { "appTitle": "SWNAP_ZH" },
-    { "appdesc": "SWNAP" }
+    { "appdesc": "SWNAP" },
+    { "settingsTitle": "设置" },
+    { "darkModeTitle": "深色模式" },
+    { "languageTitle": "语言" },
+    { "versionTitle": "版本" },
+    { "binTitle": "回收站" },
+    { "noDeletedPhotos": "没有已删除的照片" },
+    { "permissionDenied": "权限被拒绝" },
+    { "grantPermission": "授予权限" },
+    { "noPhotoFound": "找不到照片" },
+    { "noMorePhotos": "没有更多照片了" },
+    { "unknownState": "未知状态" },
+    { "temporaryPage": "临时页面" }
   ]
 }
