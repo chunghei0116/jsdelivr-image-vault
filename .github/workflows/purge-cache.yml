@@ -1,0 +1,11 @@
+name: Purge jsDelivr cache
+on:
+  push:
+    branches:
+      - main
+jobs:
+  purge_cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: curl https://purge.jsdelivr.net/gh/chunghei0116/jsdelivr-image-vault@main/translation.json
