@@ -85,7 +85,9 @@
     { "report_income_categories": "Income Categories" },
     { "common_select": "Select" },
     { "common_confirm": "Confirm" },
-    { "report_select_date_range_error": "Please select a date range" }
+    { "report_select_date_range_error": "Please select a date range" },
+    { "report_start_date": "Start Date" },
+    { "report_end_date": "End Date" }
   ],
   "zh-TW": [
     { "language": "繁體中文" },
@@ -171,7 +173,9 @@
     { "report_income_categories": "收入類別" },
     { "common_select": "選擇" },
     { "common_confirm": "確認" },
-    { "report_select_date_range_error": "請選擇日期範圍" }
+    { "report_select_date_range_error": "請選擇日期範圍" },
+    { "report_start_date": "開始日期" },
+    { "report_end_date": "結束日期" }
   ],
   "zh-HK": [
     { "language": "繁體中文 (香港)" },
@@ -257,7 +261,9 @@
     { "report_income_categories": "收入類別" },
     { "common_select": "選擇" },
     { "common_confirm": "確認" },
-    { "report_select_date_range_error": "請選擇日期範圍" }
+    { "report_select_date_range_error": "請選擇日期範圍" },
+    { "report_start_date": "開始日期" },
+    { "report_end_date": "結束日期" }
   ],
   "zh-CN": [
     { "language": "简体中文" },
@@ -343,7 +349,9 @@
     { "report_income_categories": "收入类别" },
     { "common_select": "选择" },
     { "common_confirm": "确认" },
-    { "report_select_date_range_error": "请选择日期范围" }
+    { "report_select_date_range_error": "请选择日期范围" },
+    { "report_start_date": "开始日期" },
+    { "report_end_date": "结束日期" }
   ],
   "ja": [
     { "language": "日本語" },
@@ -429,7 +437,9 @@
     { "report_income_categories": "収入カテゴリ" },
     { "common_select": "選択" },
     { "common_confirm": "確認" },
-    { "report_select_date_range_error": "日付範囲を選択してください" }
+    { "report_select_date_range_error": "日付範囲を選択してください" },
+    { "report_start_date": "開始日" },
+    { "report_end_date": "終了日" }
   ],
   "ko": [
     { "language": "한국어" },
@@ -515,6 +525,8 @@
     { "report_income_categories": "수입 카테고리" },
     { "common_select": "선택" },
     { "common_confirm": "확인" },
-    { "report_select_date_range_error": "날짜 범위를 선택하세요" }
+    { "report_select_date_range_error": "날짜 범위를 선택하세요" },
+    { "report_start_date": "시작일" },
+    { "report_end_date": "종료일" }
   ]
 }
