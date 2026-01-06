@@ -77,7 +77,11 @@
     { "common_unknown": "Unknown" },
     { "report_title": "Report" },
     { "report_charts": "Charts" },
-    { "report_expense_categories": "Expense Categories" }
+    { "report_expense_categories": "Expense Categories" },
+    { "report_date_range_current": "Current" },
+    { "report_date_range_6_months": "Past 6 Months" },
+    { "report_date_range_custom": "Custom" },
+    { "report_income_categories": "Income Categories" }
   ],
   "zh-TW": [
     { "language": "繁體中文" },
@@ -156,7 +160,11 @@
     { "common_unknown": "未知" },
     { "report_title": "報表" },
     { "report_charts": "圖表" },
-    { "report_expense_categories": "支出類別" }
+    { "report_expense_categories": "支出類別" },
+    { "report_date_range_current": "本月" },
+    { "report_date_range_6_months": "過去 6 個月" },
+    { "report_date_range_custom": "自訂" },
+    { "report_income_categories": "收入類別" }
   ],
   "zh-HK": [
     { "language": "繁體中文 (香港)" },
@@ -235,7 +243,11 @@
     { "common_unknown": "未知" },
     { "report_title": "報表" },
     { "report_charts": "圖表" },
-    { "report_expense_categories": "支出類別" }
+    { "report_expense_categories": "支出類別" },
+    { "report_date_range_current": "本月" },
+    { "report_date_range_6_months": "過去 6 個月" },
+    { "report_date_range_custom": "自訂" },
+    { "report_income_categories": "收入類別" }
   ],
   "zh-CN": [
     { "language": "简体中文" },
@@ -314,7 +326,11 @@
     { "common_unknown": "未知" },
     { "report_title": "报表" },
     { "report_charts": "图表" },
-    { "report_expense_categories": "支出类别" }
+    { "report_expense_categories": "支出类别" },
+    { "report_date_range_current": "本月" },
+    { "report_date_range_6_months": "过去 6 个月" },
+    { "report_date_range_custom": "自定义" },
+    { "report_income_categories": "收入类别" }
   ],
   "ja": [
     { "language": "日本語" },
@@ -393,7 +409,11 @@
     { "common_unknown": "不明" },
     { "report_title": "レポート" },
     { "report_charts": "チャート" },
-    { "report_expense_categories": "支出カテゴリ" }
+    { "report_expense_categories": "支出カテゴリ" },
+    { "report_date_range_current": "今月" },
+    { "report_date_range_6_months": "過去 6 ヶ月" },
+    { "report_date_range_custom": "カスタム" },
+    { "report_income_categories": "収入カテゴリ" }
   ],
   "ko": [
     { "language": "한국어" },
@@ -472,6 +492,10 @@
     { "common_unknown": "알 수 없음" },
     { "report_title": "보고서" },
     { "report_charts": "차트" },
-    { "report_expense_categories": "지출 카테고리" }
+    { "report_expense_categories": "지출 카테고리" },
+    { "report_date_range_current": "이번 달" },
+    { "report_date_range_6_months": "지난 6 개월" },
+    { "report_date_range_custom": "사용자 정의" },
+    { "report_income_categories": "수입 카테고리" }
   ]
 }
