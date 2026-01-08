@@ -91,6 +91,7 @@
     { "data_transfer_page_title": "Data Transfer" },
     { "export_data_title": "Export Data" },
     { "export_data_subtitle": "Export your financial data to a file." },
+    { "import_data_title": "Import Data" },
     { "import_data_subtitle": "Import financial data from a file." },
     { "import_data_warning": "Importing data will overwrite existing data. Are you sure you want to continue?" }
   ],
@@ -184,6 +185,7 @@
     { "data_transfer_page_title": "資料轉移" },
     { "export_data_title": "匯出資料" },
     { "export_data_subtitle": "將您的財務資料匯出到檔案。" },
+    { "import_data_title": "匯入資料" },
     { "import_data_subtitle": "從檔案匯入財務資料。" },
     { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" }
   ],
@@ -277,6 +279,7 @@
     { "data_transfer_page_title": "資料轉移" },
     { "export_data_title": "匯出資料" },
     { "export_data_subtitle": "將您的財務資料匯出到檔案。" },
+    { "import_data_title": "匯入資料" },
     { "import_data_subtitle": "從檔案匯入財務資料。" },
     { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" }
   ],
@@ -370,6 +373,7 @@
     { "data_transfer_page_title": "数据传输" },
     { "export_data_title": "导出数据" },
     { "export_data_subtitle": "将您的财务数据导出到文件。" },
+    { "import_data_title": "导入数据" },
     { "import_data_subtitle": "从文件导入财务数据。" },
     { "import_data_warning": "导入数据将覆盖现有数据。您确定要继续吗？" }
   ],
@@ -463,6 +467,7 @@
     { "data_transfer_page_title": "データ転送" },
     { "export_data_title": "データのエクスポート" },
     { "export_data_subtitle": "財務データをファイルにエクスポートします。" },
+    { "import_data_title": "データインポート" },
     { "import_data_subtitle": "ファイルから財務データをインポートします。" },
     { "import_data_warning": "データをインポートすると既存のデータが上書きされます。続行してもよろしいですか？" }
   ],
@@ -556,6 +561,7 @@
     { "data_transfer_page_title": "데이터 전송" },
     { "export_data_title": "데이터 내보내기" },
     { "export_data_subtitle": "재무 데이터를 파일로 내보냅니다." },
+    { "import_data_title": "데이터 가져오기" },
     { "import_data_subtitle": "파일에서 재무 데이터를 가져옵니다." },
     { "import_data_warning": "데이터를 가져오면 기존 데이터가 덮어쓰여집니다. 계속하시겠습니까?" }
   ]
