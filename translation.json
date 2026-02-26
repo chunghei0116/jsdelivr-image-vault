@@ -94,7 +94,17 @@
     { "export_data_subtitle": "Export your financial data to a file." },
     { "import_data_title": "Import Data" },
     { "import_data_subtitle": "Import financial data from a file." },
-    { "import_data_warning": "Importing data will overwrite existing data. Are you sure you want to continue?" }
+    { "import_data_warning": "Importing data will overwrite existing data. Are you sure you want to continue?" },
+    { "common_import": "Import" },
+    { "common_please_enter_amount": "Please enter an amount" },
+    { "common_save": "Save" },
+    { "report_category_breakdown": "Category Breakdown" },
+    { "report_sort_amount": "Amount" },
+    { "report_sort_name": "Name" },
+    { "report_sort_percentage": "Percentage" },
+    { "settings_select_language": "Select Language" },
+    { "logout": "Logout" },
+    { "common_net_balance": "Net Balance" }
   ],
   "zh-TW": [
     { "language": "繁體中文" },
@@ -189,7 +199,17 @@
     { "export_data_subtitle": "將您的財務資料匯出到檔案。" },
     { "import_data_title": "匯入資料" },
     { "import_data_subtitle": "從檔案匯入財務資料。" },
-    { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" }
+    { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" },
+    { "common_import": "匯入" },
+    { "common_please_enter_amount": "請輸入金額" },
+    { "common_save": "儲存" },
+    { "report_category_breakdown": "類別分析" },
+    { "report_sort_amount": "金額" },
+    { "report_sort_name": "名稱" },
+    { "report_sort_percentage": "百分比" },
+    { "settings_select_language": "選擇語言" },
+    { "logout": "登出" },
+    { "common_net_balance": "淨額" }
   ],
   "zh-HK": [
     { "language": "繁體中文 (香港)" },
@@ -284,7 +304,17 @@
     { "export_data_subtitle": "將您的財務資料匯出到檔案。" },
     { "import_data_title": "匯入資料" },
     { "import_data_subtitle": "從檔案匯入財務資料。" },
-    { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" }
+    { "import_data_warning": "匯入資料將覆蓋現有資料。您確定要繼續嗎？" },
+    { "common_import": "匯入" },
+    { "common_please_enter_amount": "請輸入金額" },
+    { "common_save": "儲存" },
+    { "report_category_breakdown": "類別分析" },
+    { "report_sort_amount": "金額" },
+    { "report_sort_name": "名稱" },
+    { "report_sort_percentage": "百分比" },
+    { "settings_select_language": "選擇語言" },
+    { "logout": "登出" },
+    { "common_net_balance": "淨額" }
   ],
   "zh-CN": [
     { "language": "简体中文" },
@@ -380,7 +410,16 @@
     { "export_data_subtitle": "将您的财务数据导出到文件。" },
     { "import_data_title": "导入数据" },
     { "import_data_subtitle": "从文件导入财务数据。" },
-    { "import_data_warning": "导入数据将覆盖现有数据。您确定要继续吗？" }
+    { "import_data_warning": "导入数据将覆盖现有数据。您确定要继续吗？" },
+    { "common_import": "导入" },
+    { "common_please_enter_amount": "请输入金额" },
+    { "common_save": "保存" },
+    { "report_category_breakdown": "类别分析" },
+    { "report_sort_amount": "金额" },
+    { "report_sort_name": "名称" },
+    { "report_sort_percentage": "百分比" },
+    { "settings_select_language": "选择语言" },
+    { "logout": "登出" }
   ],
   "ja": [
     { "language": "日本語" },
@@ -476,7 +515,16 @@
     { "export_data_subtitle": "財務データをファイルにエクスポートします。" },
     { "import_data_title": "データインポート" },
     { "import_data_subtitle": "ファイルから財務データをインポートします。" },
-    { "import_data_warning": "データをインポートすると既存のデータが上書きされます。続行してもよろしいですか？" }
+    { "import_data_warning": "データをインポートすると既存のデータが上書きされます。続行してもよろしいですか？" },
+    { "common_import": "インポート" },
+    { "common_please_enter_amount": "金額を入力してください" },
+    { "common_save": "保存" },
+    { "report_category_breakdown": "カテゴリの内訳" },
+    { "report_sort_amount": "金額" },
+    { "report_sort_name": "名称" },
+    { "report_sort_percentage": "パーセンテージ" },
+    { "settings_select_language": "言語を選択" },
+    { "logout": "ログアウト" }
   ],
   "ko": [
     { "language": "한국어" },
@@ -572,6 +620,15 @@
     { "export_data_subtitle": "재무 데이터를 파일로 내보냅니다." },
     { "import_data_title": "데이터 가져오기" },
     { "import_data_subtitle": "파일에서 재무 데이터를 가져옵니다." },
-    { "import_data_warning": "데이터를 가져오면 기존 데이터가 덮어쓰여집니다. 계속하시겠습니까?" }
+    { "import_data_warning": "데이터를 가져오면 기존 데이터가 덮어쓰여집니다. 계속하시겠습니까?" },
+    { "common_import": "가져오기" },
+    { "common_please_enter_amount": "금액을 입력해주세요" },
+    { "common_save": "저장" },
+    { "report_category_breakdown": "카테고리 분석" },
+    { "report_sort_amount": "금액" },
+    { "report_sort_name": "이름" },
+    { "report_sort_percentage": "백분율" },
+    { "settings_select_language": "언어 선택" },
+    { "logout": "로그아웃" }
   ]
 }
