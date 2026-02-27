@@ -125,6 +125,12 @@
     { "record_remark_hint": "What was this for?" },
     { "settings_user_name_placeholder": "Koinz User" },
     { "settings_account_type_free": "Free Account" },
+    { "alarm_reminder_title": "Daily Reminder" },
+    { "alarm_reminder_description": "Never miss a record. Get a daily reminder to track your expenses." },
+    { "alarm_enable_reminder": "Enable Daily Reminder" },
+    { "alarm_reminder_time": "Reminder Time" },
+    { "alarm_notification_title": "Koinz Reminder" },
+    { "alarm_notification_body": "Don't forget to record your expenses today!" },
     { "common_next": "Next" }
   ],
   "zh-TW": [
@@ -251,6 +257,12 @@
     { "record_remark_hint": "這筆款項是用於？" },
     { "settings_user_name_placeholder": "Koinz 用戶" },
     { "settings_account_type_free": "免費帳戶" },
+    { "alarm_reminder_title": "每日提醒" },
+    { "alarm_reminder_description": "從不漏掉任何一筆紀錄。獲取每日提醒來追蹤您的支出。" },
+    { "alarm_enable_reminder": "開啟每日提醒" },
+    { "alarm_reminder_time": "提醒時間" },
+    { "alarm_notification_title": "Koinz 提醒" },
+    { "alarm_notification_body": "不要忘記記錄今天的收支喔！" },
     { "common_next": "下一步" }
   ],
   "zh-HK": [
@@ -360,7 +372,7 @@
     { "common_overview": "總覽" },
     { "common_retry": "重試" },
     { "common_select_date": "選擇日期" },
-    { "common_go_to_current_month": "回到本月" },
+    { "common_go_to_current_month": "回到主頁" },
     { "home_quick_action_budget": "預算" },
     { "home_quick_action_categories": "類別" },
     { "home_quick_action_history": "紀錄" },
@@ -377,6 +389,12 @@
     { "record_remark_hint": "這筆款項是用於？" },
     { "settings_user_name_placeholder": "Koinz 用戶" },
     { "settings_account_type_free": "免費帳戶" },
+    { "alarm_reminder_title": "每日提醒" },
+    { "alarm_reminder_description": "從不漏掉任何一筆紀錄。獲取每日提醒來追蹤您的支出。" },
+    { "alarm_enable_reminder": "開啟每日提醒" },
+    { "alarm_reminder_time": "提醒時間" },
+    { "alarm_notification_title": "Koinz 提醒" },
+    { "alarm_notification_body": "唔好記住記低今日嘅開支呀！" },
     { "common_next": "下一步" }
   ],
   "zh-CN": [
@@ -503,6 +521,12 @@
     { "record_remark_hint": "这笔款項是用于？" },
     { "settings_user_name_placeholder": "Koinz 用户" },
     { "settings_account_type_free": "免费账户" },
+    { "alarm_reminder_title": "每日提醒" },
+    { "alarm_reminder_description": "从不漏掉任何一笔记录。获取每日提醒来追踪您的支出。" },
+    { "alarm_enable_reminder": "开启每日提醒" },
+    { "alarm_reminder_time": "提醒时间" },
+    { "alarm_notification_title": "Koinz 提醒" },
+    { "alarm_notification_body": "不要忘记记录今天的收支喔！" },
     { "common_next": "下一步" }
   ],
   "ja": [
@@ -629,6 +653,12 @@
     { "record_remark_hint": "何のための支払いですか？" },
     { "settings_user_name_placeholder": "Koinz ユーザー" },
     { "settings_account_type_free": "無料アカウント" },
+    { "alarm_reminder_title": "毎日リマインダー" },
+    { "alarm_reminder_description": "記録を忘れないように。支出を追跡するための毎日のリマインダーを受け取ります。" },
+    { "alarm_enable_reminder": "毎日リマインダーを有効にする" },
+    { "alarm_reminder_time": "リマインダー時間" },
+    { "alarm_notification_title": "Koinz リマインダー" },
+    { "alarm_notification_body": "今日の収支を記録するのを忘れないでくださいね！" },
     { "common_next": "次へ" }
   ],
   "ko": [
@@ -732,6 +762,7 @@
     { "report_sort_percentage": "백분율" },
     { "settings_select_language": "언어 선택" },
     { "logout": "로그아웃" },
+    { "common_net_balance": "순 잔액" },
     { "common_overview": "개요" },
     { "common_retry": "재시도" },
     { "common_select_date": "날짜 선택" },
@@ -752,6 +783,12 @@
     { "record_remark_hint": "이 비용은 무엇을 위한 것인가요?" },
     { "settings_user_name_placeholder": "Koinz 사용자" },
     { "settings_account_type_free": "무료 계정" },
+    { "alarm_reminder_title": "일일 알림" },
+    { "alarm_reminder_description": "기록을 잊지 마세요. 지출을 추적할 수 있도록 일일 알림을 받습니다." },
+    { "alarm_enable_reminder": "일일 알림 활성화" },
+    { "alarm_reminder_time": "알림 시간" },
+    { "alarm_notification_title": "Koinz 알림" },
+    { "alarm_notification_body": "오늘의 지출을 기록하는 것을 잊지 마세요!" },
     { "common_next": "다음" }
   ]
 }
