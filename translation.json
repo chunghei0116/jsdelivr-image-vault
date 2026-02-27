@@ -7,6 +7,7 @@
     { "record_edit_record": "Edit Record" },
     { "common_expense": "Expense" },
     { "common_income": "Income" },
+    { "common_balance": "Balance" },
     { "common_category": "Category" },
     { "common_add": "Add" },
     { "common_date": "Date" },
@@ -155,7 +156,14 @@
     { "common_month_short_9": "Sep" },
     { "common_month_short_10": "Oct" },
     { "common_month_short_11": "Nov" },
-    { "common_month_short_12": "Dec" }
+    { "common_month_short_12": "Dec" },
+    { "common_weekday_1": "Monday" },
+    { "common_weekday_2": "Tuesday" },
+    { "common_weekday_3": "Wednesday" },
+    { "common_weekday_4": "Thursday" },
+    { "common_weekday_5": "Friday" },
+    { "common_weekday_6": "Saturday" },
+    { "common_weekday_7": "Sunday" }
   ],
   "zh-TW": [
     { "language": "繁體中文" },
@@ -165,6 +173,7 @@
     { "record_edit_record": "編輯紀錄" },
     { "common_expense": "支出" },
     { "common_income": "收入" },
+    { "common_balance": "結餘" },
     { "common_category": "類別" },
     { "common_add": "新增" },
     { "common_date": "日期" },
@@ -311,7 +320,14 @@
     { "common_month_short_9": "9月" },
     { "common_month_short_10": "10月" },
     { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" }
+    { "common_month_short_12": "12月" },
+    { "common_weekday_1": "星期一" },
+    { "common_weekday_2": "星期二" },
+    { "common_weekday_3": "星期三" },
+    { "common_weekday_4": "星期四" },
+    { "common_weekday_5": "星期五" },
+    { "common_weekday_6": "星期六" },
+    { "common_weekday_7": "星期日" }
   ],
   "zh-HK": [
     { "language": "繁體中文 (香港)" },
@@ -321,6 +337,7 @@
     { "record_edit_record": "編輯紀錄" },
     { "common_expense": "支出" },
     { "common_income": "收入" },
+    { "common_balance": "結餘" },
     { "common_category": "類別" },
     { "common_add": "新增" },
     { "common_date": "日期" },
@@ -467,7 +484,14 @@
     { "common_month_short_9": "9月" },
     { "common_month_short_10": "10月" },
     { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" }
+    { "common_month_short_12": "12月" },
+    { "common_weekday_1": "星期一" },
+    { "common_weekday_2": "星期二" },
+    { "common_weekday_3": "星期三" },
+    { "common_weekday_4": "星期四" },
+    { "common_weekday_5": "星期五" },
+    { "common_weekday_6": "星期六" },
+    { "common_weekday_7": "星期日" }
   ],
   "zh-CN": [
     { "language": "简体中文" },
@@ -477,6 +501,7 @@
     { "record_edit_record": "编辑记录" },
     { "common_expense": "支出" },
     { "common_income": "收入" },
+    { "common_balance": "结余" },
     { "common_category": "类别" },
     { "common_add": "新增" },
     { "common_date": "日期" },
@@ -623,7 +648,14 @@
     { "common_month_short_9": "9月" },
     { "common_month_short_10": "10月" },
     { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" }
+    { "common_month_short_12": "12月" },
+    { "common_weekday_1": "星期一" },
+    { "common_weekday_2": "星期二" },
+    { "common_weekday_3": "星期三" },
+    { "common_weekday_4": "星期四" },
+    { "common_weekday_5": "星期五" },
+    { "common_weekday_6": "星期六" },
+    { "common_weekday_7": "星期日" }
   ],
   "ja": [
     { "language": "日本語" },
@@ -633,6 +665,7 @@
     { "record_edit_record": "記録を編集" },
     { "common_expense": "支出" },
     { "common_income": "収入" },
+    { "common_balance": "残高" },
     { "common_category": "カテゴリ" },
     { "common_add": "追加" },
     { "common_date": "日付" },
@@ -779,7 +812,14 @@
     { "common_month_short_9": "9月" },
     { "common_month_short_10": "10月" },
     { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" }
+    { "common_month_short_12": "12月" },
+    { "common_weekday_1": "月曜日" },
+    { "common_weekday_2": "火曜日" },
+    { "common_weekday_3": "水曜日" },
+    { "common_weekday_4": "木曜日" },
+    { "common_weekday_5": "金曜日" },
+    { "common_weekday_6": "土曜日" },
+    { "common_weekday_7": "日曜日" }
   ],
   "ko": [
     { "language": "한국어" },
@@ -789,6 +829,7 @@
     { "record_edit_record": "기록 편집" },
     { "common_expense": "지출" },
     { "common_income": "수입" },
+    { "common_balance": "잔액" },
     { "common_category": "카테고리" },
     { "common_add": "추가" },
     { "common_date": "날짜" },
@@ -914,7 +955,7 @@
     { "common_month_2": "2월" },
     { "common_month_3": "3월" },
     { "common_month_4": "4월" },
-    { "common_month_5": "5월" },
+    { "common_month_5": "5月" },
     { "common_month_6": "6월" },
     { "common_month_7": "7월" },
     { "common_month_8": "8월" },
@@ -933,6 +974,13 @@
     { "common_month_short_9": "9월" },
     { "common_month_short_10": "10월" },
     { "common_month_short_11": "11월" },
-    { "common_month_short_12": "12월" }
+    { "common_month_short_12": "12월" },
+    { "common_weekday_1": "월요일" },
+    { "common_weekday_2": "화요일" },
+    { "common_weekday_3": "수요일" },
+    { "common_weekday_4": "목요일" },
+    { "common_weekday_5": "금요일" },
+    { "common_weekday_6": "토요일" },
+    { "common_weekday_7": "일요일" }
   ]
 }
