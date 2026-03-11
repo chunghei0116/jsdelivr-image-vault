@@ -1,1274 +1,4139 @@
 {
   "en": [
-    { "language": "English" },
-    { "app_title": "Koinz" },
-    { "common_delete": "Delete" },
-    { "record_add_record": "Add Record" },
-    { "record_edit_record": "Edit Record" },
-    { "common_expense": "Expense" },
-    { "common_income": "Income" },
-    { "common_save": "Save" },
-    { "common_cancel": "Cancel" },
-    { "common_confirm": "Confirm" },
-    { "common_add": "Add" },
-    { "common_category": "Category" },
-    { "common_amount": "Amount" },
-    { "common_date": "Date" },
-    { "common_remark": "Remark" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "Please enter a valid number" },
-    { "common_please_select_category": "Please select a category" },
-    { "common_all": "All" },
-    { "common_total": "Total" },
-    { "common_balance": "Balance" },
-    { "home_tab_history": "History" },
-    { "home_tab_calendar": "Calendar" },
-    { "home_total_balance": "Total Balance" },
-    { "home_monthly_expense": "Monthly Expense" },
-    { "home_monthly_income": "Monthly Income" },
-    { "home_quick_action_add": "Add" },
-    { "home_quick_action_report": "Report" },
-    { "home_quick_action_categories": "Categories" },
-    { "home_quick_action_history": "History" },
-    { "home_no_record_hint": "Try switching to another month" },
-    { "home_greeting": "Hello, " },
-    { "report_failed_load": "Failed to load records" },
-    { "report_swipe_instruction": "Swipe charts to change month" },
-    { "report_view_trend": "Trend" },
-    { "report_view_breakdown": "Breakdown" },
-    { "report_trend_positive": "Positive" },
-    { "report_trend_negative": "Negative" },
-    { "report_monthly_balance": "Monthly Balance" },
-    { "common_expenses": "Expenses" },
-    { "record_remark_hint": "What is this for?" },
-    { "settings_title": "Settings" },
-    { "settings_user_name_placeholder": "Koinz User" },
-    { "settings_account_type_free": "Free Account" },
-    { "settings_appearance": "Appearance" },
-    { "settings_theme_mode": "Theme Mode" },
-    { "settings_theme_light": "Light" },
-    { "settings_theme_dark": "Dark" },
-    { "settings_theme_system": "System" },
-    { "settings_localization": "Localization" },
-    { "settings_language": "Language" },
-    { "settings_currency": "Currency" },
-    { "settings_notifications": "Notifications" },
-    { "settings_data": "Data" },
-    { "settings_data_transfer": "Data Transfer" },
-    { "settings_about": "About" },
-    { "settings_version": "Version" },
-    { "reminder_daily_title": "Daily Reminder" },
-    { "reminder_daily_description": "Never miss a record. Receive a daily reminder to track your spending." },
-    { "reminder_enable": "Enable Daily Reminder" },
-    { "reminder_time": "Reminder Time" },
-    { "notification_daily_title": "Koinz Reminder" },
-    { "notification_daily_body": "Don't forget to record your transactions today!" },
-    { "common_next": "Next" },
-    { "common_month_1": "January" },
-    { "common_month_2": "February" },
-    { "common_month_3": "March" },
-    { "common_month_4": "April" },
-    { "common_month_5": "May" },
-    { "common_month_6": "June" },
-    { "common_month_7": "July" },
-    { "common_month_8": "August" },
-    { "common_month_9": "September" },
-    { "common_month_10": "October" },
-    { "common_month_11": "November" },
-    { "common_month_12": "December" },
-    { "common_month_short_1": "Jan" },
-    { "common_month_short_2": "Feb" },
-    { "common_month_short_3": "Mar" },
-    { "common_month_short_4": "Apr" },
-    { "common_month_short_5": "May" },
-    { "common_month_short_6": "Jun" },
-    { "common_month_short_7": "Jul" },
-    { "common_month_short_8": "Aug" },
-    { "common_month_short_9": "Sep" },
-    { "common_month_short_10": "Oct" },
-    { "common_month_short_11": "Nov" },
-    { "common_month_short_12": "Dec" },
-    { "common_weekday_1": "Monday" },
-    { "common_weekday_2": "Tuesday" },
-    { "common_weekday_3": "Wednesday" },
-    { "common_weekday_4": "Thursday" },
-    { "common_weekday_5": "Friday" },
-    { "common_weekday_6": "Saturday" },
-    { "common_weekday_7": "Sunday" },
-    { "backup_settings_title": "Backup Settings" },
-    { "backup_path_title": "Backup Destination" },
-    { "backup_path_not_set": "Please select a folder to enable auto-backup" },
-    { "backup_path_mobile_note": "Note: Mobile OS may restrict background writing to external folders. Use internal storage for best reliability." },
-    { "backup_path_reset": "Reset to App Documents" },
-    { "auto_backup_title": "Auto Backup" },
-    { "auto_backup_subtitle": "Automatically backup your data every 24 hours" },
-    { "manual_actions_title": "Manual Actions" },
-    { "export_success": "Data backed up successfully!" },
-    { "export_failure": "Backup failed. Please check permissions." },
-    { "import_success": "Data imported successfully!" },
-    { "import_failure": "Import failed. Invalid file format." },
-    { "settings_categories_management": "Category Management" },
-    { "add_category_title": "Add Category" },
-    { "add_category_name": "Category Name" },
-    { "add_category_name_error": "Please enter a category name" },
-    { "add_category_select_color": "Select Color" },
-    { "add_category_select_icon": "Select Icon" },
-    { "add_category_preview": "Preview" },
-    { "add_category_error_icon": "Please select an icon" },
-    { "add_category_error_color": "Please select a color" },
-    { "edit_category_title": "Edit Category" },
-    { "smart_sorting_title": "Smart Sorting" },
-    { "smart_sorting_subtitle": "Automatically reorder categories based on usage" },
-    { "smart_sorting_active_warning": "Smart sorting is active. Categories are ordered by usage frequency. To reorder manually, disable smart sorting in settings." },
-    { "category_management_reorder_help": "Long press and drag to reorder categories" },
-    { "category_management_long_press_edit": "Long press to enter edit mode" },
-    { "category_management_drag_reorder": "Drag to reorder" },
-    { "category_breakfast": "Breakfast" },
-    { "category_lunch": "Lunch" },
-    { "category_dinner": "Dinner" },
-    { "category_shopping": "Shopping" },
-    { "category_digital": "Digital" },
-    { "category_transport": "Transport" },
-    { "category_entertainment": "Entertainment" },
-    { "category_medical": "Medical" },
-    { "category_insurance": "Insurance" },
-    { "category_gift": "Gift" },
-    { "category_travel": "Travel" },
-    { "category_fitness": "Fitness" },
-    { "category_housing": "Housing" },
-    { "category_others": "Others" },
-    { "category_salary": "Salary" },
-    { "category_bonus": "Bonus" },
-    { "category_investment_income": "Investment" },
-    { "category_gift_allowance": "Gift Allowance" },
-    { "category_other_income": "Other Income" },
-    { "common_edit": "Edit" },
-    { "common_unsaved_changes": "Unsaved Changes" },
-    { "common_discard_changes_warning": "You have unsaved changes. Are you sure you want to discard them?" },
-    { "common_discard": "Discard" },
-    { "category_delete_title": "Delete Category" },
-    { "category_delete_warning": "Are you sure you want to delete this category? All associated records will also be deleted." },
-    { "settings_subscriptions": "Subscriptions" },
-    { "settings_subscriptions_add": "Add Subscription" },
-    { "settings_subscriptions_empty": "No Subscriptions" },
-    { "settings_subscriptions_empty_desc": "Track your recurring expenses here, like Netflix, Spotify, or Gym." },
-    { "monthly": "Monthly" },
-    { "yearly": "Yearly" },
-    { "common_inactive": "Inactive" },
-    { "settings_subscription_delete_confirm": "Are you sure you want to delete this subscription? No more automated records will be created." },
-    { "common_ok": "OK" },
-    { "category_delete_error_has_records": "Cannot delete category because it has records. Please delete all associated records first." },
-    { "settings_recurring_records": "Recurring Records" },
-    { "settings_recurring_add": "Add Recurring Record" },
-    { "settings_recurring_empty": "No Recurring Records" },
-    { "settings_recurring_empty_desc": "Automate your regular expenses or income, like rent, salary, or utility bills." },
-    { "settings_recurring_delete_confirm": "Are you sure you want to delete this recurring record? No more automated records will be created." },
-    { "common_repeat_every": "Repeat every" },
-    { "common_unit_day": "Day(s)" },
-    { "common_unit_week": "Week(s)" },
-    { "common_unit_month": "Month(s)" },
-    { "common_unit_quarter": "Quarter(s)" },
-    { "common_unit_year": "Year(s)" },
-    { "common_recurrence": "Recurrence" },
-    { "common_start_date": "Start Date" },
-    { "common_error_required": "This field is required" },
-    { "common_name": "Name" },
-    { "common_done": "Done" },
-    { "common_automated": "Automated" },
-    { "common_subscription": "Subscription" },
-    { "common_recurring": "Recurring" },
-    { "bottom_bar_home": "Home" },
-    { "bottom_bar_calendar": "Calendar" },
-    { "bottom_bar_reports": "Reports" },
-    { "settings_general": "General" },
-    { "settings_daily_reminder": "Daily Reminder" },
-    { "settings_smart_category_sorting": "Smart Category Sorting" },
-    { "settings_tutorial": "Tutorial" },
-    { "settings_terms_of_service": "Terms of Service" },
-    { "settings_select_language": "Select Language" },
-    { "settings_select_currency": "Select Currency" },
-    { "settings_dark_mode": "Dark Mode" },
-    { "data_transfer_page_title": "Data Transfer" },
-    { "export_data_title": "Export Data" },
-    { "export_data_subtitle": "Export all your transactions and settings" },
-    { "import_data_title": "Import Data" },
-    { "import_data_subtitle": "Restore data from a backup file" },
-    { "import_data_warning": "Importing data will overwrite your current local records. Are you sure?" },
-    { "common_import": "Import" },
-    { "report_title": "Financial Report" },
-    { "report_category_breakdown": "Category Breakdown" },
-    { "common_retry": "Retry" },
-    { "common_unknown": "Unknown" },
-    { "common_go_to_current_month": "Go to Current Month" },
-    { "home_category_distribution": "Category Distribution" },
-    { "home_no_record": "No Records Found" },
-    { "home_no_transactions": "No Transactions" },
-    { "home_no_transactions_to_display": "No transactions to display for this period" },
-    { "home_quick_action_budget": "Budget" },
-    { "home_recent_activity": "Recent Activity" },
-    { "common_please_enter_amount": "Please enter an amount" },
-    { "common_select_date": "Select Date" },
-    { "common_overview": "Overview" },
-    { "date_format_month_year": "MMMM yyyy" }
+    {
+      "language": "English"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "Delete"
+    },
+    {
+      "record_add_record": "Add Record"
+    },
+    {
+      "record_edit_record": "Edit Record"
+    },
+    {
+      "common_expense": "Expense"
+    },
+    {
+      "common_income": "Income"
+    },
+    {
+      "common_save": "Save"
+    },
+    {
+      "common_cancel": "Cancel"
+    },
+    {
+      "common_confirm": "Confirm"
+    },
+    {
+      "common_add": "Add"
+    },
+    {
+      "common_category": "Category"
+    },
+    {
+      "common_amount": "Amount"
+    },
+    {
+      "common_date": "Date"
+    },
+    {
+      "common_remark": "Remark"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "Please enter a valid number"
+    },
+    {
+      "common_please_select_category": "Please select a category"
+    },
+    {
+      "common_all": "All"
+    },
+    {
+      "common_total": "Total"
+    },
+    {
+      "common_balance": "Balance"
+    },
+    {
+      "home_tab_history": "History"
+    },
+    {
+      "home_tab_calendar": "Calendar"
+    },
+    {
+      "home_total_balance": "Total Balance"
+    },
+    {
+      "home_monthly_expense": "Monthly Expense"
+    },
+    {
+      "home_monthly_income": "Monthly Income"
+    },
+    {
+      "home_quick_action_add": "Add"
+    },
+    {
+      "home_quick_action_report": "Report"
+    },
+    {
+      "home_quick_action_categories": "Categories"
+    },
+    {
+      "home_quick_action_history": "History"
+    },
+    {
+      "home_no_record_hint": "Try switching to another month"
+    },
+    {
+      "home_greeting": "Hello, "
+    },
+    {
+      "report_failed_load": "Failed to load records"
+    },
+    {
+      "report_swipe_instruction": "Swipe charts to change month"
+    },
+    {
+      "report_view_trend": "Trend"
+    },
+    {
+      "report_view_breakdown": "Breakdown"
+    },
+    {
+      "report_trend_positive": "Positive"
+    },
+    {
+      "report_trend_negative": "Negative"
+    },
+    {
+      "report_monthly_balance": "Monthly Balance"
+    },
+    {
+      "common_expenses": "Expenses"
+    },
+    {
+      "record_remark_hint": "What is this for?"
+    },
+    {
+      "settings_title": "Settings"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz User"
+    },
+    {
+      "settings_account_type_free": "Free Account"
+    },
+    {
+      "settings_appearance": "Appearance"
+    },
+    {
+      "settings_theme_mode": "Theme Mode"
+    },
+    {
+      "settings_theme_light": "Light"
+    },
+    {
+      "settings_theme_dark": "Dark"
+    },
+    {
+      "settings_theme_system": "System"
+    },
+    {
+      "settings_localization": "Localization"
+    },
+    {
+      "settings_language": "Language"
+    },
+    {
+      "settings_currency": "Currency"
+    },
+    {
+      "settings_notifications": "Notifications"
+    },
+    {
+      "settings_data": "Data"
+    },
+    {
+      "settings_data_transfer": "Data Transfer"
+    },
+    {
+      "settings_about": "About"
+    },
+    {
+      "settings_version": "Version"
+    },
+    {
+      "reminder_daily_title": "Daily Reminder"
+    },
+    {
+      "reminder_daily_description": "Never miss a record. Receive a daily reminder to track your spending."
+    },
+    {
+      "reminder_enable": "Enable Daily Reminder"
+    },
+    {
+      "reminder_time": "Reminder Time"
+    },
+    {
+      "notification_daily_title": "Koinz Reminder"
+    },
+    {
+      "notification_daily_body": "Don't forget to record your transactions today!"
+    },
+    {
+      "common_next": "Next"
+    },
+    {
+      "common_month_1": "January"
+    },
+    {
+      "common_month_2": "February"
+    },
+    {
+      "common_month_3": "March"
+    },
+    {
+      "common_month_4": "April"
+    },
+    {
+      "common_month_5": "May"
+    },
+    {
+      "common_month_6": "June"
+    },
+    {
+      "common_month_7": "July"
+    },
+    {
+      "common_month_8": "August"
+    },
+    {
+      "common_month_9": "September"
+    },
+    {
+      "common_month_10": "October"
+    },
+    {
+      "common_month_11": "November"
+    },
+    {
+      "common_month_12": "December"
+    },
+    {
+      "common_month_short_1": "Jan"
+    },
+    {
+      "common_month_short_2": "Feb"
+    },
+    {
+      "common_month_short_3": "Mar"
+    },
+    {
+      "common_month_short_4": "Apr"
+    },
+    {
+      "common_month_short_5": "May"
+    },
+    {
+      "common_month_short_6": "Jun"
+    },
+    {
+      "common_month_short_7": "Jul"
+    },
+    {
+      "common_month_short_8": "Aug"
+    },
+    {
+      "common_month_short_9": "Sep"
+    },
+    {
+      "common_month_short_10": "Oct"
+    },
+    {
+      "common_month_short_11": "Nov"
+    },
+    {
+      "common_month_short_12": "Dec"
+    },
+    {
+      "common_weekday_1": "Monday"
+    },
+    {
+      "common_weekday_2": "Tuesday"
+    },
+    {
+      "common_weekday_3": "Wednesday"
+    },
+    {
+      "common_weekday_4": "Thursday"
+    },
+    {
+      "common_weekday_5": "Friday"
+    },
+    {
+      "common_weekday_6": "Saturday"
+    },
+    {
+      "common_weekday_7": "Sunday"
+    },
+    {
+      "backup_settings_title": "Backup Settings"
+    },
+    {
+      "backup_path_title": "Backup Destination"
+    },
+    {
+      "backup_path_not_set": "Please select a folder to enable auto-backup"
+    },
+    {
+      "backup_path_mobile_note": "Note: Mobile OS may restrict background writing to external folders. Use internal storage for best reliability."
+    },
+    {
+      "backup_path_reset": "Reset to App Documents"
+    },
+    {
+      "auto_backup_title": "Auto Backup"
+    },
+    {
+      "auto_backup_subtitle": "Automatically backup your data every 24 hours"
+    },
+    {
+      "manual_actions_title": "Manual Actions"
+    },
+    {
+      "export_success": "Data backed up successfully!"
+    },
+    {
+      "export_failure": "Backup failed. Please check permissions."
+    },
+    {
+      "import_success": "Data imported successfully!"
+    },
+    {
+      "import_failure": "Import failed. Invalid file format."
+    },
+    {
+      "settings_categories_management": "Category Management"
+    },
+    {
+      "add_category_title": "Add Category"
+    },
+    {
+      "add_category_name": "Category Name"
+    },
+    {
+      "add_category_name_error": "Please enter a category name"
+    },
+    {
+      "add_category_select_color": "Select Color"
+    },
+    {
+      "add_category_select_icon": "Select Icon"
+    },
+    {
+      "add_category_preview": "Preview"
+    },
+    {
+      "add_category_error_icon": "Please select an icon"
+    },
+    {
+      "add_category_error_color": "Please select a color"
+    },
+    {
+      "edit_category_title": "Edit Category"
+    },
+    {
+      "smart_sorting_title": "Smart Sorting"
+    },
+    {
+      "smart_sorting_subtitle": "Automatically reorder categories based on usage"
+    },
+    {
+      "smart_sorting_active_warning": "Smart sorting is active. Categories are ordered by usage frequency. To reorder manually, disable smart sorting in settings."
+    },
+    {
+      "category_management_reorder_help": "Long press and drag to reorder categories"
+    },
+    {
+      "category_management_long_press_edit": "Long press to enter edit mode"
+    },
+    {
+      "category_management_drag_reorder": "Drag to reorder"
+    },
+    {
+      "category_breakfast": "Breakfast"
+    },
+    {
+      "category_lunch": "Lunch"
+    },
+    {
+      "category_dinner": "Dinner"
+    },
+    {
+      "category_shopping": "Shopping"
+    },
+    {
+      "category_digital": "Digital"
+    },
+    {
+      "category_transport": "Transport"
+    },
+    {
+      "category_entertainment": "Entertainment"
+    },
+    {
+      "category_medical": "Medical"
+    },
+    {
+      "category_insurance": "Insurance"
+    },
+    {
+      "category_gift": "Gift"
+    },
+    {
+      "category_travel": "Travel"
+    },
+    {
+      "category_fitness": "Fitness"
+    },
+    {
+      "category_housing": "Housing"
+    },
+    {
+      "category_others": "Others"
+    },
+    {
+      "category_salary": "Salary"
+    },
+    {
+      "category_bonus": "Bonus"
+    },
+    {
+      "category_investment_income": "Investment"
+    },
+    {
+      "category_gift_allowance": "Gift Allowance"
+    },
+    {
+      "category_other_income": "Other Income"
+    },
+    {
+      "common_edit": "Edit"
+    },
+    {
+      "common_unsaved_changes": "Unsaved Changes"
+    },
+    {
+      "common_discard_changes_warning": "You have unsaved changes. Are you sure you want to discard them?"
+    },
+    {
+      "common_discard": "Discard"
+    },
+    {
+      "category_delete_title": "Delete Category"
+    },
+    {
+      "category_delete_warning": "Are you sure you want to delete this category? All associated records will also be deleted."
+    },
+    {
+      "settings_subscriptions": "Subscriptions"
+    },
+    {
+      "settings_subscriptions_add": "Add Subscription"
+    },
+    {
+      "settings_subscriptions_empty": "No Subscriptions"
+    },
+    {
+      "settings_subscriptions_empty_desc": "Track your recurring expenses here, like Netflix, Spotify, or Gym."
+    },
+    {
+      "monthly": "Monthly"
+    },
+    {
+      "yearly": "Yearly"
+    },
+    {
+      "common_inactive": "Inactive"
+    },
+    {
+      "settings_subscription_delete_confirm": "Are you sure you want to delete this subscription? No more automated records will be created."
+    },
+    {
+      "common_ok": "OK"
+    },
+    {
+      "category_delete_error_has_records": "Cannot delete category because it has records. Please delete all associated records first."
+    },
+    {
+      "settings_recurring_records": "Recurring Records"
+    },
+    {
+      "settings_recurring_add": "Add Recurring Record"
+    },
+    {
+      "settings_recurring_empty": "No Recurring Records"
+    },
+    {
+      "settings_recurring_empty_desc": "Automate your regular expenses or income, like rent, salary, or utility bills."
+    },
+    {
+      "settings_recurring_delete_confirm": "Are you sure you want to delete this recurring record? No more automated records will be created."
+    },
+    {
+      "common_repeat_every": "Repeat every"
+    },
+    {
+      "common_unit_day": "Day(s)"
+    },
+    {
+      "common_unit_week": "Week(s)"
+    },
+    {
+      "common_unit_month": "Month(s)"
+    },
+    {
+      "common_unit_quarter": "Quarter(s)"
+    },
+    {
+      "common_unit_year": "Year(s)"
+    },
+    {
+      "common_recurrence": "Recurrence"
+    },
+    {
+      "common_start_date": "Start Date"
+    },
+    {
+      "common_error_required": "This field is required"
+    },
+    {
+      "common_name": "Name"
+    },
+    {
+      "common_done": "Done"
+    },
+    {
+      "common_automated": "Automated"
+    },
+    {
+      "common_subscription": "Subscription"
+    },
+    {
+      "common_recurring": "Recurring"
+    },
+    {
+      "bottom_bar_home": "Home"
+    },
+    {
+      "bottom_bar_calendar": "Calendar"
+    },
+    {
+      "bottom_bar_reports": "Reports"
+    },
+    {
+      "settings_general": "General"
+    },
+    {
+      "settings_daily_reminder": "Daily Reminder"
+    },
+    {
+      "settings_smart_category_sorting": "Smart Category Sorting"
+    },
+    {
+      "settings_tutorial": "Tutorial"
+    },
+    {
+      "settings_terms_of_service": "Terms of Service"
+    },
+    {
+      "settings_select_language": "Select Language"
+    },
+    {
+      "settings_select_currency": "Select Currency"
+    },
+    {
+      "settings_dark_mode": "Dark Mode"
+    },
+    {
+      "data_transfer_page_title": "Data Transfer"
+    },
+    {
+      "export_data_title": "Export Data"
+    },
+    {
+      "export_data_subtitle": "Export all your transactions and settings"
+    },
+    {
+      "import_data_title": "Import Data"
+    },
+    {
+      "import_data_subtitle": "Restore data from a backup file"
+    },
+    {
+      "import_data_warning": "Importing data will overwrite your current local records. Are you sure?"
+    },
+    {
+      "common_import": "Import"
+    },
+    {
+      "report_title": "Financial Report"
+    },
+    {
+      "report_category_breakdown": "Category Breakdown"
+    },
+    {
+      "common_retry": "Retry"
+    },
+    {
+      "common_unknown": "Unknown"
+    },
+    {
+      "common_go_to_current_month": "Go to Current Month"
+    },
+    {
+      "home_category_distribution": "Category Distribution"
+    },
+    {
+      "home_no_record": "No Records Found"
+    },
+    {
+      "home_no_transactions": "No Transactions"
+    },
+    {
+      "home_no_transactions_to_display": "No transactions to display for this period"
+    },
+    {
+      "home_quick_action_budget": "Budget"
+    },
+    {
+      "home_recent_activity": "Recent Activity"
+    },
+    {
+      "common_please_enter_amount": "Please enter an amount"
+    },
+    {
+      "common_select_date": "Select Date"
+    },
+    {
+      "common_overview": "Overview"
+    },
+    {
+      "date_format_month_year": "MMMM yyyy"
+    },
+    {
+      "budget_system_budget": "System Budget"
+    },
+    {
+      "budget_stable": "Stable"
+    },
+    {
+      "budget_warning": "Warning"
+    },
+    {
+      "budget_critical": "Critical"
+    },
+    {
+      "budget_remaining": "Remaining"
+    },
+    {
+      "budget_monthly_allocation": "Monthly Allocation"
+    },
+    {
+      "budget_utilized": "Utilized"
+    },
+    {
+      "budget_available": "Available"
+    },
+    {
+      "budget_alert_threshold": "Alert Threshold"
+    },
+    {
+      "budget_alert_gates": "Alert Gates"
+    },
+    {
+      "budget_notify_description": "Notify me when spending reaches this percentage."
+    },
+    {
+      "budget_save_changes": "Save System Changes"
+    },
+    {
+      "budget_discard_title": "Discard Changes?"
+    },
+    {
+      "budget_discard_description": "You have unsaved changes in your system budget settings."
+    },
+    {
+      "budget_system_offline": "System Offline"
+    },
+    {
+      "recent_activity_log_history": "Log History"
+    },
+    {
+      "recent_activity_title": "Recent Activity"
+    },
+    {
+      "recent_activity_input_on": "Input on"
+    },
+    {
+      "recent_activity_recorded_for": "Recorded for"
+    },
+    {
+      "recent_activity_no_activity": "No Activity Found"
+    },
+    {
+      "recent_activity_no_records": "No records found"
+    },
+    {
+      "budget_amount_hint": "Enter amount"
+    },
+    {
+      "budget_new_alert_point": "New Alert Point"
+    }
   ],
   "zh_TW": [
-    { "language": "繁體中文" },
-    { "app_title": "Koinz" },
-    { "common_delete": "刪除" },
-    { "record_add_record": "新增紀錄" },
-    { "record_edit_record": "編輯紀錄" },
-    { "common_expense": "支出" },
-    { "common_income": "收入" },
-    { "common_save": "儲存" },
-    { "common_cancel": "取消" },
-    { "common_confirm": "確認" },
-    { "common_add": "新增" },
-    { "common_category": "類別" },
-    { "common_amount": "金額" },
-    { "common_date": "日期" },
-    { "common_remark": "備註" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "請輸入有效金額" },
-    { "common_please_select_category": "請選擇類別" },
-    { "common_all": "全部" },
-    { "common_total": "總計" },
-    { "common_balance": "結餘" },
-    { "home_tab_history": "歷史" },
-    { "home_tab_calendar": "日曆" },
-    { "home_total_balance": "總結餘" },
-    { "home_monthly_expense": "本月支出" },
-    { "home_monthly_income": "本月收入" },
-    { "home_quick_action_add": "新增" },
-    { "home_quick_action_report": "報表" },
-    { "home_quick_action_categories": "類別" },
-    { "home_quick_action_history": "歷史" },
-    { "home_no_record_hint": "嘗試切換到其他月份" },
-    { "home_greeting": "你好，" },
-    { "report_failed_load": "無法載入紀錄" },
-    { "report_swipe_instruction": "左右滑動圖表切換月份" },
-    { "report_view_trend": "趨勢" },
-    { "report_view_breakdown": "分佈" },
-    { "report_trend_positive": "正向" },
-    { "report_trend_negative": "負向" },
-    { "report_monthly_balance": "每月結餘" },
-    { "common_expenses": "支出" },
-    { "record_remark_hint": "這筆款項是用來做什麼的？" },
-    { "settings_title": "設定" },
-    { "settings_user_name_placeholder": "Koinz 用戶" },
-    { "settings_account_type_free": "免費帳戶" },
-    { "settings_appearance": "外觀" },
-    { "settings_theme_mode": "主題模式" },
-    { "settings_theme_light": "淺色" },
-    { "settings_theme_dark": "深色" },
-    { "settings_theme_system": "系統預設" },
-    { "settings_localization": "本地化" },
-    { "settings_language": "語言" },
-    { "settings_currency": "貨幣" },
-    { "settings_notifications": "通知" },
-    { "settings_data": "數據" },
-    { "settings_data_transfer": "數據傳輸" },
-    { "settings_about": "關於" },
-    { "settings_version": "版本" },
-    { "reminder_daily_title": "每日提醒" },
-    { "reminder_daily_description": "不再錯過任何紀錄。每日接收提醒以追蹤您的支出。" },
-    { "reminder_enable": "啟用每日提醒" },
-    { "reminder_time": "提醒時間" },
-    { "notification_daily_title": "Koinz 提醒" },
-    { "notification_daily_body": "別忘了記錄今天的交易哦！" },
-    { "common_next": "下一步" },
-    { "common_month_1": "一月" },
-    { "common_month_2": "二月" },
-    { "common_month_3": "三月" },
-    { "common_month_4": "四月" },
-    { "common_month_5": "五月" },
-    { "common_month_6": "六月" },
-    { "common_month_7": "七月" },
-    { "common_month_8": "八月" },
-    { "common_month_9": "九月" },
-    { "common_month_10": "十月" },
-    { "common_month_11": "十一月" },
-    { "common_month_12": "十二月" },
-    { "common_month_short_1": "1月" },
-    { "common_month_short_2": "2月" },
-    { "common_month_short_3": "3月" },
-    { "common_month_short_4": "4月" },
-    { "common_month_short_5": "5月" },
-    { "common_month_short_6": "6月" },
-    { "common_month_short_7": "7月" },
-    { "common_month_short_8": "8月" },
-    { "common_month_short_9": "9月" },
-    { "common_month_short_10": "10月" },
-    { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" },
-    { "common_weekday_1": "星期一" },
-    { "common_weekday_2": "星期二" },
-    { "common_weekday_3": "星期三" },
-    { "common_weekday_4": "星期四" },
-    { "common_weekday_5": "星期五" },
-    { "common_weekday_6": "星期六" },
-    { "common_weekday_7": "星期日" },
-    { "backup_settings_title": "備份設定" },
-    { "backup_path_title": "備份路徑" },
-    { "backup_path_not_set": "請選擇一個資料夾以啟用自動備份" },
-    { "backup_path_mobile_note": "註：行動作業系統可能會限制對外部資料夾的背景寫入。為了獲得最佳可靠性，請使用內部儲存。" },
-    { "backup_path_reset": "重置為應用程式文件" },
-    { "auto_backup_title": "自動備份" },
-    { "auto_backup_subtitle": "每 24 小時自動備份您的數據" },
-    { "manual_actions_title": "手動操作" },
-    { "export_success": "數據備份成功！" },
-    { "export_failure": "備份失敗。請檢查權限。" },
-    { "import_success": "數據匯入成功！" },
-    { "import_failure": "匯入失敗。檔案格式無效。" },
-    { "settings_categories_management": "類別管理" },
-    { "add_category_title": "新增類別" },
-    { "add_category_name": "類別名稱" },
-    { "add_category_name_error": "請輸入類別名稱" },
-    { "add_category_select_color": "選擇顏色" },
-    { "add_category_select_icon": "選擇圖示" },
-    { "add_category_preview": "預覽" },
-    { "add_category_error_icon": "請選擇一個圖示" },
-    { "add_category_error_color": "請選擇一個顏色" },
-    { "edit_category_title": "編輯類別" },
-    { "smart_sorting_title": "智慧排序" },
-    { "smart_sorting_subtitle": "根據使用頻率自動重新排序類別" },
-    { "smart_sorting_active_warning": "智慧排序已啟用。類別按使用頻率排序。如需手動排序，請在設定中停用智慧排序。" },
-    { "category_management_reorder_help": "長按並拖動以重新排序類別" },
-    { "category_management_long_press_edit": "長按進入編輯模式" },
-    { "category_management_drag_reorder": "拖動以重新排序" },
-    { "category_breakfast": "早餐" },
-    { "category_lunch": "午餐" },
-    { "category_dinner": "晚餐" },
-    { "category_shopping": "購物" },
-    { "category_digital": "數位" },
-    { "category_transport": "交通" },
-    { "category_entertainment": "娛樂" },
-    { "category_medical": "醫療" },
-    { "category_insurance": "保險" },
-    { "category_gift": "禮物" },
-    { "category_travel": "旅遊" },
-    { "category_fitness": "健身" },
-    { "category_housing": "居住" },
-    { "category_others": "其他" },
-    { "category_salary": "薪資" },
-    { "category_bonus": "獎金" },
-    { "category_investment_income": "投資" },
-    { "category_gift_allowance": "禮金" },
-    { "category_other_income": "其他收入" },
-    { "common_edit": "編輯" },
-    { "common_unsaved_changes": "未儲存的變更" },
-    { "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？" },
-    { "common_discard": "捨棄" },
-    { "category_delete_title": "刪除類別" },
-    { "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。" },
-    { "settings_subscriptions": "訂閱服務" },
-    { "settings_subscriptions_add": "新增訂閱" },
-    { "settings_subscriptions_empty": "尚無訂閱" },
-    { "settings_subscriptions_empty_desc": "在此追蹤您的定期支出，例如 Netflix、Spotify 或健身房。" },
-    { "monthly": "每月" },
-    { "yearly": "每年" },
-    { "common_inactive": "已停用" },
-    { "settings_subscription_delete_confirm": "您確定要刪除此訂閱嗎？系統將停止自動建立紀錄。" },
-    { "common_ok": "確定" },
-    { "category_delete_error_has_records": "無法刪除該類別，因為它包含交易紀錄。請先刪除所有相關紀錄。" },
-    { "settings_recurring_records": "定期紀錄" },
-    { "settings_recurring_add": "新增定期紀錄" },
-    { "settings_recurring_empty": "尚無定期紀錄" },
-    { "settings_recurring_empty_desc": "自動化您的定期支出 or 收入，例如房租、薪資 or 水電費。" },
-    { "settings_recurring_delete_confirm": "您確定要刪除此定期紀錄嗎？系統將停止自動建立紀錄。" },
-    { "common_repeat_every": "每隔" },
-    { "common_unit_day": "天" },
-    { "common_unit_week": "週" },
-    { "common_unit_month": "月" },
-    { "common_unit_quarter": "季" },
-    { "common_unit_year": "年" },
-    { "common_recurrence": "重複頻率" },
-    { "common_start_date": "開始日期" },
-    { "common_error_required": "此欄位為必填" },
-    { "common_name": "名稱" },
-    { "common_done": "完成" },
-    { "common_automated": "自動" },
-    { "common_subscription": "訂閱" },
-    { "common_recurring": "定期" },
-    { "bottom_bar_home": "首頁" },
-    { "bottom_bar_calendar": "日曆" },
-    { "bottom_bar_reports": "報表" },
-    { "settings_general": "一般" },
-    { "settings_daily_reminder": "每日提醒" },
-    { "settings_smart_category_sorting": "智慧類別排序" },
-    { "settings_tutorial": "教學" },
-    { "settings_terms_of_service": "服務條款" },
-    { "settings_select_language": "選擇語言" },
-    { "settings_select_currency": "選擇貨幣" },
-    { "settings_dark_mode": "深色模式" },
-    { "data_transfer_page_title": "數據傳輸" },
-    { "export_data_title": "匯出數據" },
-    { "export_data_subtitle": "匯出所有交易紀錄與設定" },
-    { "import_data_title": "匯入數據" },
-    { "import_data_subtitle": "從備份檔案還原數據" },
-    { "import_data_warning": "匯入數據將覆蓋您目前的本地紀錄。您確定嗎？" },
-    { "common_import": "匯入" },
-    { "report_title": "財務報表" },
-    { "report_category_breakdown": "類別分析" },
-    { "common_retry": "重試" },
-    { "common_unknown": "未知" },
-    { "common_go_to_current_month": "回到本月" },
-    { "home_category_distribution": "類別分佈" },
-    { "home_no_record": "找不到紀錄" },
-    { "home_no_transactions": "尚無交易" },
-    { "home_no_transactions_to_display": "此期間尚無可顯示的交易" },
-    { "home_quick_action_budget": "預算" },
-    { "home_recent_activity": "最近活動" },
-    { "common_please_enter_amount": "請輸入金額" },
-    { "common_select_date": "選擇日期" },
-    { "common_overview": "概覽" },
-    { "date_format_month_year": "yyyy年MM月" }
+    {
+      "language": "繁體中文"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "刪除"
+    },
+    {
+      "record_add_record": "新增紀錄"
+    },
+    {
+      "record_edit_record": "編輯紀錄"
+    },
+    {
+      "common_expense": "支出"
+    },
+    {
+      "common_income": "收入"
+    },
+    {
+      "common_save": "儲存"
+    },
+    {
+      "common_cancel": "取消"
+    },
+    {
+      "common_confirm": "確認"
+    },
+    {
+      "common_add": "新增"
+    },
+    {
+      "common_category": "類別"
+    },
+    {
+      "common_amount": "金額"
+    },
+    {
+      "common_date": "日期"
+    },
+    {
+      "common_remark": "備註"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "請輸入有效金額"
+    },
+    {
+      "common_please_select_category": "請選擇類別"
+    },
+    {
+      "common_all": "全部"
+    },
+    {
+      "common_total": "總計"
+    },
+    {
+      "common_balance": "結餘"
+    },
+    {
+      "home_tab_history": "歷史"
+    },
+    {
+      "home_tab_calendar": "日曆"
+    },
+    {
+      "home_total_balance": "總結餘"
+    },
+    {
+      "home_monthly_expense": "本月支出"
+    },
+    {
+      "home_monthly_income": "本月收入"
+    },
+    {
+      "home_quick_action_add": "新增"
+    },
+    {
+      "home_quick_action_report": "報表"
+    },
+    {
+      "home_quick_action_categories": "類別"
+    },
+    {
+      "home_quick_action_history": "歷史"
+    },
+    {
+      "home_no_record_hint": "嘗試切換到其他月份"
+    },
+    {
+      "home_greeting": "你好，"
+    },
+    {
+      "report_failed_load": "無法載入紀錄"
+    },
+    {
+      "report_swipe_instruction": "左右滑動圖表切換月份"
+    },
+    {
+      "report_view_trend": "趨勢"
+    },
+    {
+      "report_view_breakdown": "分佈"
+    },
+    {
+      "report_trend_positive": "正向"
+    },
+    {
+      "report_trend_negative": "負向"
+    },
+    {
+      "report_monthly_balance": "每月結餘"
+    },
+    {
+      "common_expenses": "支出"
+    },
+    {
+      "record_remark_hint": "這筆款項是用來做什麼的？"
+    },
+    {
+      "settings_title": "設定"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz 用戶"
+    },
+    {
+      "settings_account_type_free": "免費帳戶"
+    },
+    {
+      "settings_appearance": "外觀"
+    },
+    {
+      "settings_theme_mode": "主題模式"
+    },
+    {
+      "settings_theme_light": "淺色"
+    },
+    {
+      "settings_theme_dark": "深色"
+    },
+    {
+      "settings_theme_system": "系統預設"
+    },
+    {
+      "settings_localization": "本地化"
+    },
+    {
+      "settings_language": "語言"
+    },
+    {
+      "settings_currency": "貨幣"
+    },
+    {
+      "settings_notifications": "通知"
+    },
+    {
+      "settings_data": "數據"
+    },
+    {
+      "settings_data_transfer": "數據傳輸"
+    },
+    {
+      "settings_about": "關於"
+    },
+    {
+      "settings_version": "版本"
+    },
+    {
+      "reminder_daily_title": "每日提醒"
+    },
+    {
+      "reminder_daily_description": "不再錯過任何紀錄。每日接收提醒以追蹤您的支出。"
+    },
+    {
+      "reminder_enable": "啟用每日提醒"
+    },
+    {
+      "reminder_time": "提醒時間"
+    },
+    {
+      "notification_daily_title": "Koinz 提醒"
+    },
+    {
+      "notification_daily_body": "別忘了記錄今天的交易哦！"
+    },
+    {
+      "common_next": "下一步"
+    },
+    {
+      "common_month_1": "一月"
+    },
+    {
+      "common_month_2": "二月"
+    },
+    {
+      "common_month_3": "三月"
+    },
+    {
+      "common_month_4": "四月"
+    },
+    {
+      "common_month_5": "五月"
+    },
+    {
+      "common_month_6": "六月"
+    },
+    {
+      "common_month_7": "七月"
+    },
+    {
+      "common_month_8": "八月"
+    },
+    {
+      "common_month_9": "九月"
+    },
+    {
+      "common_month_10": "十月"
+    },
+    {
+      "common_month_11": "十一月"
+    },
+    {
+      "common_month_12": "十二月"
+    },
+    {
+      "common_month_short_1": "1月"
+    },
+    {
+      "common_month_short_2": "2月"
+    },
+    {
+      "common_month_short_3": "3月"
+    },
+    {
+      "common_month_short_4": "4月"
+    },
+    {
+      "common_month_short_5": "5月"
+    },
+    {
+      "common_month_short_6": "6月"
+    },
+    {
+      "common_month_short_7": "7月"
+    },
+    {
+      "common_month_short_8": "8月"
+    },
+    {
+      "common_month_short_9": "9月"
+    },
+    {
+      "common_month_short_10": "10月"
+    },
+    {
+      "common_month_short_11": "11月"
+    },
+    {
+      "common_month_short_12": "12月"
+    },
+    {
+      "common_weekday_1": "星期一"
+    },
+    {
+      "common_weekday_2": "星期二"
+    },
+    {
+      "common_weekday_3": "星期三"
+    },
+    {
+      "common_weekday_4": "星期四"
+    },
+    {
+      "common_weekday_5": "星期五"
+    },
+    {
+      "common_weekday_6": "星期六"
+    },
+    {
+      "common_weekday_7": "星期日"
+    },
+    {
+      "backup_settings_title": "備份設定"
+    },
+    {
+      "backup_path_title": "備份路徑"
+    },
+    {
+      "backup_path_not_set": "請選擇一個資料夾以啟用自動備份"
+    },
+    {
+      "backup_path_mobile_note": "註：行動作業系統可能會限制對外部資料夾的背景寫入。為了獲得最佳可靠性，請使用內部儲存。"
+    },
+    {
+      "backup_path_reset": "重置為應用程式文件"
+    },
+    {
+      "auto_backup_title": "自動備份"
+    },
+    {
+      "auto_backup_subtitle": "每 24 小時自動備份您的數據"
+    },
+    {
+      "manual_actions_title": "手動操作"
+    },
+    {
+      "export_success": "數據備份成功！"
+    },
+    {
+      "export_failure": "備份失敗。請檢查權限。"
+    },
+    {
+      "import_success": "數據匯入成功！"
+    },
+    {
+      "import_failure": "匯入失敗。檔案格式無效。"
+    },
+    {
+      "settings_categories_management": "類別管理"
+    },
+    {
+      "add_category_title": "新增類別"
+    },
+    {
+      "add_category_name": "類別名稱"
+    },
+    {
+      "add_category_name_error": "請輸入類別名稱"
+    },
+    {
+      "add_category_select_color": "選擇顏色"
+    },
+    {
+      "add_category_select_icon": "選擇圖示"
+    },
+    {
+      "add_category_preview": "預覽"
+    },
+    {
+      "add_category_error_icon": "請選擇一個圖示"
+    },
+    {
+      "add_category_error_color": "請選擇一個顏色"
+    },
+    {
+      "edit_category_title": "編輯類別"
+    },
+    {
+      "smart_sorting_title": "智慧排序"
+    },
+    {
+      "smart_sorting_subtitle": "根據使用頻率自動重新排序類別"
+    },
+    {
+      "smart_sorting_active_warning": "智慧排序已啟用。類別按使用頻率排序。如需手動排序，請在設定中停用智慧排序。"
+    },
+    {
+      "category_management_reorder_help": "長按並拖動以重新排序類別"
+    },
+    {
+      "category_management_long_press_edit": "長按進入編輯模式"
+    },
+    {
+      "category_management_drag_reorder": "拖動以重新排序"
+    },
+    {
+      "category_breakfast": "早餐"
+    },
+    {
+      "category_lunch": "午餐"
+    },
+    {
+      "category_dinner": "晚餐"
+    },
+    {
+      "category_shopping": "購物"
+    },
+    {
+      "category_digital": "數位"
+    },
+    {
+      "category_transport": "交通"
+    },
+    {
+      "category_entertainment": "娛樂"
+    },
+    {
+      "category_medical": "醫療"
+    },
+    {
+      "category_insurance": "保險"
+    },
+    {
+      "category_gift": "禮物"
+    },
+    {
+      "category_travel": "旅遊"
+    },
+    {
+      "category_fitness": "健身"
+    },
+    {
+      "category_housing": "居住"
+    },
+    {
+      "category_others": "其他"
+    },
+    {
+      "category_salary": "薪資"
+    },
+    {
+      "category_bonus": "獎金"
+    },
+    {
+      "category_investment_income": "投資"
+    },
+    {
+      "category_gift_allowance": "禮金"
+    },
+    {
+      "category_other_income": "其他收入"
+    },
+    {
+      "common_edit": "編輯"
+    },
+    {
+      "common_unsaved_changes": "未儲存的變更"
+    },
+    {
+      "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？"
+    },
+    {
+      "common_discard": "捨棄"
+    },
+    {
+      "category_delete_title": "刪除類別"
+    },
+    {
+      "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。"
+    },
+    {
+      "settings_subscriptions": "訂閱服務"
+    },
+    {
+      "settings_subscriptions_add": "新增訂閱"
+    },
+    {
+      "settings_subscriptions_empty": "尚無訂閱"
+    },
+    {
+      "settings_subscriptions_empty_desc": "在此追蹤您的定期支出，例如 Netflix、Spotify 或健身房。"
+    },
+    {
+      "monthly": "每月"
+    },
+    {
+      "yearly": "每年"
+    },
+    {
+      "common_inactive": "已停用"
+    },
+    {
+      "settings_subscription_delete_confirm": "您確定要刪除此訂閱嗎？系統將停止自動建立紀錄。"
+    },
+    {
+      "common_ok": "確定"
+    },
+    {
+      "category_delete_error_has_records": "無法刪除該類別，因為它包含交易紀錄。請先刪除所有相關紀錄。"
+    },
+    {
+      "settings_recurring_records": "定期紀錄"
+    },
+    {
+      "settings_recurring_add": "新增定期紀錄"
+    },
+    {
+      "settings_recurring_empty": "尚無定期紀錄"
+    },
+    {
+      "settings_recurring_empty_desc": "自動化您的定期支出 or 收入，例如房租、薪資 or 水電費。"
+    },
+    {
+      "settings_recurring_delete_confirm": "您確定要刪除此定期紀錄嗎？系統將停止自動建立紀錄。"
+    },
+    {
+      "common_repeat_every": "每隔"
+    },
+    {
+      "common_unit_day": "天"
+    },
+    {
+      "common_unit_week": "週"
+    },
+    {
+      "common_unit_month": "月"
+    },
+    {
+      "common_unit_quarter": "季"
+    },
+    {
+      "common_unit_year": "年"
+    },
+    {
+      "common_recurrence": "重複頻率"
+    },
+    {
+      "common_start_date": "開始日期"
+    },
+    {
+      "common_error_required": "此欄位為必填"
+    },
+    {
+      "common_name": "名稱"
+    },
+    {
+      "common_done": "完成"
+    },
+    {
+      "common_automated": "自動"
+    },
+    {
+      "common_subscription": "訂閱"
+    },
+    {
+      "common_recurring": "定期"
+    },
+    {
+      "bottom_bar_home": "首頁"
+    },
+    {
+      "bottom_bar_calendar": "日曆"
+    },
+    {
+      "bottom_bar_reports": "報表"
+    },
+    {
+      "settings_general": "一般"
+    },
+    {
+      "settings_daily_reminder": "每日提醒"
+    },
+    {
+      "settings_smart_category_sorting": "智慧類別排序"
+    },
+    {
+      "settings_tutorial": "教學"
+    },
+    {
+      "settings_terms_of_service": "服務條款"
+    },
+    {
+      "settings_select_language": "選擇語言"
+    },
+    {
+      "settings_select_currency": "選擇貨幣"
+    },
+    {
+      "settings_dark_mode": "深色模式"
+    },
+    {
+      "data_transfer_page_title": "數據傳輸"
+    },
+    {
+      "export_data_title": "匯出數據"
+    },
+    {
+      "export_data_subtitle": "匯出所有交易紀錄與設定"
+    },
+    {
+      "import_data_title": "匯入數據"
+    },
+    {
+      "import_data_subtitle": "從備份檔案還原數據"
+    },
+    {
+      "import_data_warning": "匯入數據將覆蓋您目前的本地紀錄。您確定嗎？"
+    },
+    {
+      "common_import": "匯入"
+    },
+    {
+      "report_title": "財務報表"
+    },
+    {
+      "report_category_breakdown": "類別分析"
+    },
+    {
+      "common_retry": "重試"
+    },
+    {
+      "common_unknown": "未知"
+    },
+    {
+      "common_go_to_current_month": "回到本月"
+    },
+    {
+      "home_category_distribution": "類別分佈"
+    },
+    {
+      "home_no_record": "找不到紀錄"
+    },
+    {
+      "home_no_transactions": "尚無交易"
+    },
+    {
+      "home_no_transactions_to_display": "此期間尚無可顯示的交易"
+    },
+    {
+      "home_quick_action_budget": "預算"
+    },
+    {
+      "home_recent_activity": "最近活動"
+    },
+    {
+      "common_please_enter_amount": "請輸入金額"
+    },
+    {
+      "common_select_date": "選擇日期"
+    },
+    {
+      "common_overview": "概覽"
+    },
+    {
+      "date_format_month_year": "yyyy年MM月"
+    },
+    {
+      "budget_system_budget": "系統預算"
+    },
+    {
+      "budget_stable": "穩定"
+    },
+    {
+      "budget_warning": "警告"
+    },
+    {
+      "budget_critical": "危險"
+    },
+    {
+      "budget_remaining": "剩餘"
+    },
+    {
+      "budget_monthly_allocation": "每月分配"
+    },
+    {
+      "budget_utilized": "已使用"
+    },
+    {
+      "budget_available": "可用"
+    },
+    {
+      "budget_alert_threshold": "警報閾值"
+    },
+    {
+      "budget_alert_gates": "警報點"
+    },
+    {
+      "budget_notify_description": "當支出達到此百分比時通知我。"
+    },
+    {
+      "budget_save_changes": "儲存系統變更"
+    },
+    {
+      "budget_discard_title": "捨棄變更？"
+    },
+    {
+      "budget_discard_description": "您的系統預算設定有未儲存的變更。"
+    },
+    {
+      "budget_system_offline": "系統離線"
+    },
+    {
+      "recent_activity_log_history": "日誌歷史"
+    },
+    {
+      "recent_activity_title": "最近活動"
+    },
+    {
+      "recent_activity_input_on": "輸入於"
+    },
+    {
+      "recent_activity_recorded_for": "記錄於"
+    },
+    {
+      "recent_activity_no_activity": "找不到活動"
+    },
+    {
+      "recent_activity_no_records": "找不到紀錄"
+    },
+    {
+      "budget_amount_hint": "輸入金額"
+    },
+    {
+      "budget_new_alert_point": "新增警報點"
+    }
   ],
   "zh_HK": [
-    { "language": "繁體中文 (香港)" },
-    { "app_title": "Koinz" },
-    { "common_delete": "刪除" },
-    { "record_add_record": "新增紀錄" },
-    { "record_edit_record": "編輯紀錄" },
-    { "common_expense": "支出" },
-    { "common_income": "收入" },
-    { "common_save": "儲存" },
-    { "common_cancel": "取消" },
-    { "common_confirm": "確認" },
-    { "common_add": "新增" },
-    { "common_category": "類別" },
-    { "common_amount": "金額" },
-    { "common_date": "日期" },
-    { "common_remark": "備註" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "請輸入有效金額" },
-    { "common_please_select_category": "請選擇類別" },
-    { "common_all": "全部" },
-    { "common_total": "總計" },
-    { "common_balance": "結餘" },
-    { "home_tab_history": "歷史" },
-    { "home_tab_calendar": "日曆" },
-    { "home_total_balance": "總結餘" },
-    { "home_monthly_expense": "本月支出" },
-    { "home_monthly_income": "本月收入" },
-    { "home_quick_action_add": "新增" },
-    { "home_quick_action_report": "報表" },
-    { "home_quick_action_categories": "類別" },
-    { "home_quick_action_history": "歷史" },
-    { "home_no_record_hint": "嘗試切換到其他月份" },
-    { "home_greeting": "你好，" },
-    { "report_failed_load": "無法載入紀錄" },
-    { "report_swipe_instruction": "左右滑動圖表切換月份" },
-    { "report_view_trend": "趨勢" },
-    { "report_view_breakdown": "分佈" },
-    { "report_trend_positive": "正向" },
-    { "report_trend_negative": "負向" },
-    { "report_monthly_balance": "每月結餘" },
-    { "common_expenses": "支出" },
-    { "record_remark_hint": "這筆款項是用來做什麼的？" },
-    { "settings_title": "設定" },
-    { "settings_user_name_placeholder": "Koinz 用戶" },
-    { "settings_account_type_free": "免費帳戶" },
-    { "settings_appearance": "外觀" },
-    { "settings_theme_mode": "主題模式" },
-    { "settings_theme_light": "淺色" },
-    { "settings_theme_dark": "深色" },
-    { "settings_theme_system": "系統預設" },
-    { "settings_localization": "本地化" },
-    { "settings_language": "語言" },
-    { "settings_currency": "貨幣" },
-    { "settings_notifications": "通知" },
-    { "settings_data": "數據" },
-    { "settings_data_transfer": "數據傳輸" },
-    { "settings_about": "關於" },
-    { "settings_version": "版本" },
-    { "reminder_daily_title": "每日提醒" },
-    { "reminder_daily_description": "不再錯過任何紀錄。每日接收提醒以追蹤您的支出。" },
-    { "reminder_enable": "啟用每日提醒" },
-    { "reminder_time": "提醒時間" },
-    { "notification_daily_title": "Koinz 提醒" },
-    { "notification_daily_body": "別忘了記錄今天的交易哦！" },
-    { "common_next": "下一步" },
-    { "common_month_1": "一月" },
-    { "common_month_2": "二月" },
-    { "common_month_3": "三月" },
-    { "common_month_4": "四月" },
-    { "common_month_5": "五月" },
-    { "common_month_6": "六月" },
-    { "common_month_7": "七月" },
-    { "common_month_8": "八月" },
-    { "common_month_9": "九月" },
-    { "common_month_10": "十月" },
-    { "common_month_11": "十一月" },
-    { "common_month_12": "十二月" },
-    { "common_month_short_1": "1月" },
-    { "common_month_short_2": "2月" },
-    { "common_month_short_3": "3月" },
-    { "common_month_short_4": "4月" },
-    { "common_month_short_5": "5月" },
-    { "common_month_short_6": "6月" },
-    { "common_month_short_7": "7月" },
-    { "common_month_short_8": "8月" },
-    { "common_month_short_9": "9月" },
-    { "common_month_short_10": "10月" },
-    { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" },
-    { "common_weekday_1": "星期一" },
-    { "common_weekday_2": "星期二" },
-    { "common_weekday_3": "星期三" },
-    { "common_weekday_4": "星期四" },
-    { "common_weekday_5": "星期五" },
-    { "common_weekday_6": "星期六" },
-    { "common_weekday_7": "星期日" },
-    { "backup_settings_title": "備份設定" },
-    { "backup_path_title": "備份路徑" },
-    { "backup_path_not_set": "請選擇一個資料夾以啟用自動備份" },
-    { "backup_path_mobile_note": "註：行動作業系統可能會限制對外部資料夾的背景寫入。為了獲得最佳可靠性，請使用內部儲存。" },
-    { "backup_path_reset": "重置為應用程式文件" },
-    { "auto_backup_title": "自動備份" },
-    { "auto_backup_subtitle": "每 24 小時自動備份您的數據" },
-    { "manual_actions_title": "手動操作" },
-    { "export_success": "數據備份成功！" },
-    { "export_failure": "備份失敗。請檢查權限。" },
-    { "import_success": "數據匯入成功！" },
-    { "import_failure": "匯入失敗。檔案格式無效。" },
-    { "settings_categories_management": "類別管理" },
-    { "add_category_title": "新增類別" },
-    { "add_category_name": "類別名稱" },
-    { "add_category_name_error": "請輸入類別名稱" },
-    { "add_category_select_color": "選擇顏色" },
-    { "add_category_select_icon": "選擇圖示" },
-    { "add_category_preview": "預覽" },
-    { "add_category_error_icon": "請選擇一個圖示" },
-    { "add_category_error_color": "請選擇一個顏色" },
-    { "edit_category_title": "編輯類別" },
-    { "smart_sorting_title": "智慧排序" },
-    { "smart_sorting_subtitle": "根據使用頻率自動重新排序類別" },
-    { "smart_sorting_active_warning": "智能排序已啟用。類別按使用頻率排序。如需手動排序，請在設定中停用智能排序。" },
-    { "category_management_reorder_help": "長按並拖動以重新排序類別" },
-    { "category_management_long_press_edit": "長按進入編輯模式" },
-    { "category_management_drag_reorder": "拖動以重新排序" },
-    { "category_breakfast": "早餐" },
-    { "category_lunch": "午餐" },
-    { "category_dinner": "晚餐" },
-    { "category_shopping": "購物" },
-    { "category_digital": "數碼" },
-    { "category_transport": "交通" },
-    { "category_entertainment": "娛樂" },
-    { "category_medical": "醫療" },
-    { "category_insurance": "保險" },
-    { "category_gift": "禮物" },
-    { "category_travel": "旅遊" },
-    { "category_fitness": "健身" },
-    { "category_housing": "居住" },
-    { "category_others": "其他" },
-    { "category_salary": "薪資" },
-    { "category_bonus": "獎金" },
-    { "category_investment_income": "投資" },
-    { "category_gift_allowance": "禮金" },
-    { "category_other_income": "其他收入" },
-    { "common_edit": "編輯" },
-    { "common_unsaved_changes": "未儲存的變更" },
-    { "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？" },
-    { "common_discard": "捨棄" },
-    { "category_delete_title": "刪除類別" },
-    { "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。" },
-    { "settings_subscriptions": "訂閱服務" },
-    { "settings_subscriptions_add": "新增訂閱" },
-    { "settings_subscriptions_empty": "尚無訂閱" },
-    { "settings_subscriptions_empty_desc": "在此追蹤您的定期支出，例如 Netflix、Spotify 或健身房。" },
-    { "monthly": "每月" },
-    { "yearly": "每年" },
-    { "common_inactive": "已停用" },
-    { "settings_subscription_delete_confirm": "您確定要刪除此訂閱嗎？系統將停止自動建立紀錄。" },
-    { "common_ok": "確定" },
-    { "category_delete_error_has_records": "無法刪除該類別，因為它包含交易紀錄。請先刪除所有相關紀錄。" },
-    { "settings_recurring_records": "定期紀錄" },
-    { "settings_recurring_add": "新增定期紀錄" },
-    { "settings_recurring_empty": "尚無定期紀錄" },
-    { "settings_recurring_empty_desc": "自動化您的定期支出 or 收入，例如房租、薪資 or 水電費。" },
-    { "settings_recurring_delete_confirm": "您確定要刪除此定期紀錄嗎？系統將停止自動建立紀錄。" },
-    { "common_repeat_every": "每隔" },
-    { "common_unit_day": "天" },
-    { "common_unit_week": "週" },
-    { "common_unit_month": "月" },
-    { "common_unit_quarter": "季" },
-    { "common_unit_year": "年" },
-    { "common_recurrence": "重複頻率" },
-    { "common_start_date": "開始日期" },
-    { "common_error_required": "此欄位為必填" },
-    { "common_name": "名稱" },
-    { "common_done": "完成" },
-    { "common_automated": "自動" },
-    { "common_subscription": "訂閱" },
-    { "common_recurring": "定期" },
-    { "bottom_bar_home": "首頁" },
-    { "bottom_bar_calendar": "日曆" },
-    { "bottom_bar_reports": "報表" },
-    { "settings_general": "一般" },
-    { "settings_daily_reminder": "每日提醒" },
-    { "settings_smart_category_sorting": "智慧類別排序" },
-    { "settings_tutorial": "教學" },
-    { "settings_terms_of_service": "服務條款" },
-    { "settings_select_language": "選擇語言" },
-    { "settings_select_currency": "選擇貨幣" },
-    { "settings_dark_mode": "深色模式" },
-    { "data_transfer_page_title": "數據傳輸" },
-    { "export_data_title": "匯出數據" },
-    { "export_data_subtitle": "匯出所有交易紀錄與設定" },
-    { "import_data_title": "匯入數據" },
-    { "import_data_subtitle": "從備份檔案還原數據" },
-    { "import_data_warning": "匯入數據將覆蓋您目前的本地紀錄。您確定嗎？" },
-    { "common_import": "匯入" },
-    { "report_title": "財務報表" },
-    { "report_category_breakdown": "類別分析" },
-    { "common_retry": "重試" },
-    { "common_unknown": "未知" },
-    { "common_go_to_current_month": "回到本月" },
-    { "home_category_distribution": "類別分佈" },
-    { "home_no_record": "找不到紀錄" },
-    { "home_no_transactions": "尚無交易" },
-    { "home_no_transactions_to_display": "此期間尚無可顯示的交易" },
-    { "home_quick_action_budget": "預算" },
-    { "home_recent_activity": "最近活動" },
-    { "common_please_enter_amount": "請輸入金額" },
-    { "common_select_date": "選擇日期" },
-    { "common_overview": "概覽" },
-    { "date_format_month_year": "yyyy年MM月" }
+    {
+      "language": "繁體中文 (香港)"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "刪除"
+    },
+    {
+      "record_add_record": "新增紀錄"
+    },
+    {
+      "record_edit_record": "編輯紀錄"
+    },
+    {
+      "common_expense": "支出"
+    },
+    {
+      "common_income": "收入"
+    },
+    {
+      "common_save": "儲存"
+    },
+    {
+      "common_cancel": "取消"
+    },
+    {
+      "common_confirm": "確認"
+    },
+    {
+      "common_add": "新增"
+    },
+    {
+      "common_category": "類別"
+    },
+    {
+      "common_amount": "金額"
+    },
+    {
+      "common_date": "日期"
+    },
+    {
+      "common_remark": "備註"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "請輸入有效金額"
+    },
+    {
+      "common_please_select_category": "請選擇類別"
+    },
+    {
+      "common_all": "全部"
+    },
+    {
+      "common_total": "總計"
+    },
+    {
+      "common_balance": "結餘"
+    },
+    {
+      "home_tab_history": "歷史"
+    },
+    {
+      "home_tab_calendar": "日曆"
+    },
+    {
+      "home_total_balance": "總結餘"
+    },
+    {
+      "home_monthly_expense": "本月支出"
+    },
+    {
+      "home_monthly_income": "本月收入"
+    },
+    {
+      "home_quick_action_add": "新增"
+    },
+    {
+      "home_quick_action_report": "報表"
+    },
+    {
+      "home_quick_action_categories": "類別"
+    },
+    {
+      "home_quick_action_history": "歷史"
+    },
+    {
+      "home_no_record_hint": "嘗試切換到其他月份"
+    },
+    {
+      "home_greeting": "你好，"
+    },
+    {
+      "report_failed_load": "無法載入紀錄"
+    },
+    {
+      "report_swipe_instruction": "左右滑動圖表切換月份"
+    },
+    {
+      "report_view_trend": "趨勢"
+    },
+    {
+      "report_view_breakdown": "分佈"
+    },
+    {
+      "report_trend_positive": "正向"
+    },
+    {
+      "report_trend_negative": "負向"
+    },
+    {
+      "report_monthly_balance": "每月結餘"
+    },
+    {
+      "common_expenses": "支出"
+    },
+    {
+      "record_remark_hint": "這筆款項是用來做什麼的？"
+    },
+    {
+      "settings_title": "設定"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz 用戶"
+    },
+    {
+      "settings_account_type_free": "免費帳戶"
+    },
+    {
+      "settings_appearance": "外觀"
+    },
+    {
+      "settings_theme_mode": "主題模式"
+    },
+    {
+      "settings_theme_light": "淺色"
+    },
+    {
+      "settings_theme_dark": "深色"
+    },
+    {
+      "settings_theme_system": "系統預設"
+    },
+    {
+      "settings_localization": "本地化"
+    },
+    {
+      "settings_language": "語言"
+    },
+    {
+      "settings_currency": "貨幣"
+    },
+    {
+      "settings_notifications": "通知"
+    },
+    {
+      "settings_data": "數據"
+    },
+    {
+      "settings_data_transfer": "數據傳輸"
+    },
+    {
+      "settings_about": "關於"
+    },
+    {
+      "settings_version": "版本"
+    },
+    {
+      "reminder_daily_title": "每日提醒"
+    },
+    {
+      "reminder_daily_description": "不再錯過任何紀錄。每日接收提醒以追蹤您的支出。"
+    },
+    {
+      "reminder_enable": "啟用每日提醒"
+    },
+    {
+      "reminder_time": "提醒時間"
+    },
+    {
+      "notification_daily_title": "Koinz 提醒"
+    },
+    {
+      "notification_daily_body": "別忘了記錄今天的交易哦！"
+    },
+    {
+      "common_next": "下一步"
+    },
+    {
+      "common_month_1": "一月"
+    },
+    {
+      "common_month_2": "二月"
+    },
+    {
+      "common_month_3": "三月"
+    },
+    {
+      "common_month_4": "四月"
+    },
+    {
+      "common_month_5": "五月"
+    },
+    {
+      "common_month_6": "六月"
+    },
+    {
+      "common_month_7": "七月"
+    },
+    {
+      "common_month_8": "八月"
+    },
+    {
+      "common_month_9": "九月"
+    },
+    {
+      "common_month_10": "十月"
+    },
+    {
+      "common_month_11": "十一月"
+    },
+    {
+      "common_month_12": "十二月"
+    },
+    {
+      "common_month_short_1": "1月"
+    },
+    {
+      "common_month_short_2": "2月"
+    },
+    {
+      "common_month_short_3": "3月"
+    },
+    {
+      "common_month_short_4": "4月"
+    },
+    {
+      "common_month_short_5": "5月"
+    },
+    {
+      "common_month_short_6": "6月"
+    },
+    {
+      "common_month_short_7": "7月"
+    },
+    {
+      "common_month_short_8": "8月"
+    },
+    {
+      "common_month_short_9": "9月"
+    },
+    {
+      "common_month_short_10": "10月"
+    },
+    {
+      "common_month_short_11": "11月"
+    },
+    {
+      "common_month_short_12": "12月"
+    },
+    {
+      "common_weekday_1": "星期一"
+    },
+    {
+      "common_weekday_2": "星期二"
+    },
+    {
+      "common_weekday_3": "星期三"
+    },
+    {
+      "common_weekday_4": "星期四"
+    },
+    {
+      "common_weekday_5": "星期五"
+    },
+    {
+      "common_weekday_6": "星期六"
+    },
+    {
+      "common_weekday_7": "星期日"
+    },
+    {
+      "backup_settings_title": "備份設定"
+    },
+    {
+      "backup_path_title": "備份路徑"
+    },
+    {
+      "backup_path_not_set": "請選擇一個資料夾以啟用自動備份"
+    },
+    {
+      "backup_path_mobile_note": "註：行動作業系統可能會限制對外部資料夾的背景寫入。為了獲得最佳可靠性，請使用內部儲存。"
+    },
+    {
+      "backup_path_reset": "重置為應用程式文件"
+    },
+    {
+      "auto_backup_title": "自動備份"
+    },
+    {
+      "auto_backup_subtitle": "每 24 小時自動備份您的數據"
+    },
+    {
+      "manual_actions_title": "手動操作"
+    },
+    {
+      "export_success": "數據備份成功！"
+    },
+    {
+      "export_failure": "備份失敗。請檢查權限。"
+    },
+    {
+      "import_success": "數據匯入成功！"
+    },
+    {
+      "import_failure": "匯入失敗。檔案格式無效。"
+    },
+    {
+      "settings_categories_management": "類別管理"
+    },
+    {
+      "add_category_title": "新增類別"
+    },
+    {
+      "add_category_name": "類別名稱"
+    },
+    {
+      "add_category_name_error": "請輸入類別名稱"
+    },
+    {
+      "add_category_select_color": "選擇顏色"
+    },
+    {
+      "add_category_select_icon": "選擇圖示"
+    },
+    {
+      "add_category_preview": "預覽"
+    },
+    {
+      "add_category_error_icon": "請選擇一個圖示"
+    },
+    {
+      "add_category_error_color": "請選擇一個顏色"
+    },
+    {
+      "edit_category_title": "編輯類別"
+    },
+    {
+      "smart_sorting_title": "智慧排序"
+    },
+    {
+      "smart_sorting_subtitle": "根據使用頻率自動重新排序類別"
+    },
+    {
+      "smart_sorting_active_warning": "智能排序已啟用。類別按使用頻率排序。如需手動排序，請在設定中停用智能排序。"
+    },
+    {
+      "category_management_reorder_help": "長按並拖動以重新排序類別"
+    },
+    {
+      "category_management_long_press_edit": "長按進入編輯模式"
+    },
+    {
+      "category_management_drag_reorder": "拖動以重新排序"
+    },
+    {
+      "category_breakfast": "早餐"
+    },
+    {
+      "category_lunch": "午餐"
+    },
+    {
+      "category_dinner": "晚餐"
+    },
+    {
+      "category_shopping": "購物"
+    },
+    {
+      "category_digital": "數碼"
+    },
+    {
+      "category_transport": "交通"
+    },
+    {
+      "category_entertainment": "娛樂"
+    },
+    {
+      "category_medical": "醫療"
+    },
+    {
+      "category_insurance": "保險"
+    },
+    {
+      "category_gift": "禮物"
+    },
+    {
+      "category_travel": "旅遊"
+    },
+    {
+      "category_fitness": "健身"
+    },
+    {
+      "category_housing": "居住"
+    },
+    {
+      "category_others": "其他"
+    },
+    {
+      "category_salary": "薪資"
+    },
+    {
+      "category_bonus": "獎金"
+    },
+    {
+      "category_investment_income": "投資"
+    },
+    {
+      "category_gift_allowance": "禮金"
+    },
+    {
+      "category_other_income": "其他收入"
+    },
+    {
+      "common_edit": "編輯"
+    },
+    {
+      "common_unsaved_changes": "未儲存的變更"
+    },
+    {
+      "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？"
+    },
+    {
+      "common_discard": "捨棄"
+    },
+    {
+      "category_delete_title": "刪除類別"
+    },
+    {
+      "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。"
+    },
+    {
+      "settings_subscriptions": "訂閱服務"
+    },
+    {
+      "settings_subscriptions_add": "新增訂閱"
+    },
+    {
+      "settings_subscriptions_empty": "尚無訂閱"
+    },
+    {
+      "settings_subscriptions_empty_desc": "在此追蹤您的定期支出，例如 Netflix、Spotify 或健身房。"
+    },
+    {
+      "monthly": "每月"
+    },
+    {
+      "yearly": "每年"
+    },
+    {
+      "common_inactive": "已停用"
+    },
+    {
+      "settings_subscription_delete_confirm": "您確定要刪除此訂閱嗎？系統將停止自動建立紀錄。"
+    },
+    {
+      "common_ok": "確定"
+    },
+    {
+      "category_delete_error_has_records": "無法刪除該類別，因為它包含交易紀錄。請先刪除所有相關紀錄。"
+    },
+    {
+      "settings_recurring_records": "定期紀錄"
+    },
+    {
+      "settings_recurring_add": "新增定期紀錄"
+    },
+    {
+      "settings_recurring_empty": "尚無定期紀錄"
+    },
+    {
+      "settings_recurring_empty_desc": "自動化您的定期支出 or 收入，例如房租、薪資 or 水電費。"
+    },
+    {
+      "settings_recurring_delete_confirm": "您確定要刪除此定期紀錄嗎？系統將停止自動建立紀錄。"
+    },
+    {
+      "common_repeat_every": "每隔"
+    },
+    {
+      "common_unit_day": "天"
+    },
+    {
+      "common_unit_week": "週"
+    },
+    {
+      "common_unit_month": "月"
+    },
+    {
+      "common_unit_quarter": "季"
+    },
+    {
+      "common_unit_year": "年"
+    },
+    {
+      "common_recurrence": "重複頻率"
+    },
+    {
+      "common_start_date": "開始日期"
+    },
+    {
+      "common_error_required": "此欄位為必填"
+    },
+    {
+      "common_name": "名稱"
+    },
+    {
+      "common_done": "完成"
+    },
+    {
+      "common_automated": "自動"
+    },
+    {
+      "common_subscription": "訂閱"
+    },
+    {
+      "common_recurring": "定期"
+    },
+    {
+      "bottom_bar_home": "首頁"
+    },
+    {
+      "bottom_bar_calendar": "日曆"
+    },
+    {
+      "bottom_bar_reports": "報表"
+    },
+    {
+      "settings_general": "一般"
+    },
+    {
+      "settings_daily_reminder": "每日提醒"
+    },
+    {
+      "settings_smart_category_sorting": "智慧類別排序"
+    },
+    {
+      "settings_tutorial": "教學"
+    },
+    {
+      "settings_terms_of_service": "服務條款"
+    },
+    {
+      "settings_select_language": "選擇語言"
+    },
+    {
+      "settings_select_currency": "選擇貨幣"
+    },
+    {
+      "settings_dark_mode": "深色模式"
+    },
+    {
+      "data_transfer_page_title": "數據傳輸"
+    },
+    {
+      "export_data_title": "匯出數據"
+    },
+    {
+      "export_data_subtitle": "匯出所有交易紀錄與設定"
+    },
+    {
+      "import_data_title": "匯入數據"
+    },
+    {
+      "import_data_subtitle": "從備份檔案還原數據"
+    },
+    {
+      "import_data_warning": "匯入數據將覆蓋您目前的本地紀錄。您確定嗎？"
+    },
+    {
+      "common_import": "匯入"
+    },
+    {
+      "report_title": "財務報表"
+    },
+    {
+      "report_category_breakdown": "類別分析"
+    },
+    {
+      "common_retry": "重試"
+    },
+    {
+      "common_unknown": "未知"
+    },
+    {
+      "common_go_to_current_month": "回到本月"
+    },
+    {
+      "home_category_distribution": "類別分佈"
+    },
+    {
+      "home_no_record": "找不到紀錄"
+    },
+    {
+      "home_no_transactions": "尚無交易"
+    },
+    {
+      "home_no_transactions_to_display": "此期間尚無可顯示的交易"
+    },
+    {
+      "home_quick_action_budget": "預算"
+    },
+    {
+      "home_recent_activity": "最近活動"
+    },
+    {
+      "common_please_enter_amount": "請輸入金額"
+    },
+    {
+      "common_select_date": "選擇日期"
+    },
+    {
+      "common_overview": "概覽"
+    },
+    {
+      "date_format_month_year": "yyyy年MM月"
+    }
   ],
   "zh_CN": [
-    { "language": "简体中文" },
-    { "app_title": "Koinz" },
-    { "common_delete": "删除" },
-    { "record_add_record": "记录添加" },
-    { "record_edit_record": "记录编辑" },
-    { "common_expense": "支出" },
-    { "common_income": "收入" },
-    { "common_save": "保存" },
-    { "common_cancel": "取消" },
-    { "common_confirm": "确认" },
-    { "common_add": "添加" },
-    { "common_category": "类别" },
-    { "common_amount": "金额" },
-    { "common_date": "日期" },
-    { "common_remark": "备注" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "请输入有效金额" },
-    { "common_please_select_category": "请选择类别" },
-    { "common_all": "全部" },
-    { "common_total": "总计" },
-    { "common_balance": "余额" },
-    { "home_tab_history": "历史" },
-    { "home_tab_calendar": "日历" },
-    { "home_total_balance": "总余额" },
-    { "home_monthly_expense": "本月支出" },
-    { "home_monthly_income": "本月收入" },
-    { "home_quick_action_add": "添加" },
-    { "home_quick_action_report": "报表" },
-    { "home_quick_action_categories": "类别" },
-    { "home_quick_action_history": "历史" },
-    { "home_no_record_hint": "尝试切换到其他月份" },
-    { "home_greeting": "你好，" },
-    { "report_failed_load": "无法加载记录" },
-    { "report_swipe_instruction": "左右滑动图表切换月份" },
-    { "report_view_trend": "趋势" },
-    { "report_view_breakdown": "分布" },
-    { "report_trend_positive": "正向" },
-    { "report_trend_negative": "负向" },
-    { "report_monthly_balance": "每月余额" },
-    { "common_expenses": "支出" },
-    { "record_remark_hint": "这笔款项是用来做什么的？" },
-    { "settings_title": "设置" },
-    { "settings_user_name_placeholder": "Koinz 用户" },
-    { "settings_account_type_free": "免费账户" },
-    { "settings_appearance": "外观" },
-    { "settings_theme_mode": "主题模式" },
-    { "settings_theme_light": "浅色" },
-    { "settings_theme_dark": "深色" },
-    { "settings_theme_system": "系统默认" },
-    { "settings_localization": "本地化" },
-    { "settings_language": "语言" },
-    { "settings_currency": "货币" },
-    { "settings_notifications": "通知" },
-    { "settings_data": "数据" },
-    { "settings_data_transfer": "数据传输" },
-    { "settings_about": "关于" },
-    { "settings_version": "版本" },
-    { "reminder_daily_title": "每日提醒" },
-    { "reminder_daily_description": "不再错过任何记录。每日接收提醒以追踪您的支出。" },
-    { "reminder_enable": "启用每日提醒" },
-    { "reminder_time": "提醒时间" },
-    { "notification_daily_title": "Koinz 提醒" },
-    { "notification_daily_body": "别忘了记录今天的交易哦！" },
-    { "common_next": "下一步" },
-    { "common_month_1": "一月" },
-    { "common_month_2": "二月" },
-    { "common_month_3": "三月" },
-    { "common_month_4": "四月" },
-    { "common_month_5": "五月" },
-    { "common_month_6": "六月" },
-    { "common_month_7": "七月" },
-    { "common_month_8": "八月" },
-    { "common_month_9": "九月" },
-    { "common_month_10": "十月" },
-    { "common_month_11": "十一月" },
-    { "common_month_12": "十二月" },
-    { "common_month_short_1": "1月" },
-    { "common_month_short_2": "2月" },
-    { "common_month_short_3": "3月" },
-    { "common_month_short_4": "4月" },
-    { "common_month_short_5": "5月" },
-    { "common_month_short_6": "6月" },
-    { "common_month_short_7": "7月" },
-    { "common_month_short_8": "8月" },
-    { "common_month_short_9": "9月" },
-    { "common_month_short_10": "10月" },
-    { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" },
-    { "common_weekday_1": "星期一" },
-    { "common_weekday_2": "星期二" },
-    { "common_weekday_3": "星期三" },
-    { "common_weekday_4": "星期四" },
-    { "common_weekday_5": "星期五" },
-    { "common_weekday_6": "星期六" },
-    { "common_weekday_7": "星期日" },
-    { "backup_settings_title": "备份设置" },
-    { "backup_path_title": "备份路径" },
-    { "backup_path_not_set": "请选择一个文件夹以启用自动备份" },
-    { "backup_path_mobile_note": "注：移动操作系统可能会限制对外部文件夹的后台写入。为了获得最佳可靠性，请使用内部存储。" },
-    { "backup_path_reset": "重置为应用程序文档" },
-    { "auto_backup_title": "自动备份" },
-    { "auto_backup_subtitle": "每 24 小时自动备份您的数据" },
-    { "manual_actions_title": "手动操作" },
-    { "export_success": "数据备份成功！" },
-    { "export_failure": "备份失败。请检查权限。" },
-    { "import_success": "数据导入成功！" },
-    { "import_failure": "导入失败。文件格式无效。" },
-    { "settings_categories_management": "类别管理" },
-    { "add_category_title": "添加类别" },
-    { "add_category_name": "类别名称" },
-    { "add_category_name_error": "请输入类别名称" },
-    { "add_category_select_color": "选择颜色" },
-    { "add_category_select_icon": "选择图标" },
-    { "add_category_preview": "预览" },
-    { "add_category_error_icon": "请选择一个图标" },
-    { "add_category_error_color": "请选择一个颜色" },
-    { "edit_category_title": "编辑类别" },
-    { "smart_sorting_title": "智能排序" },
-    { "smart_sorting_subtitle": "根据使用频率自动重新排序类别" },
-    { "smart_sorting_active_warning": "智能排序已启用。类别按使用频率排序。如需手动排序，请在设置中停用智能排序。" },
-    { "category_management_reorder_help": "長按並拖動以重新排序類別" },
-    { "category_management_long_press_edit": "長按進入編輯模式" },
-    { "category_management_drag_reorder": "拖動以重新排序" },
-    { "category_breakfast": "早餐" },
-    { "category_lunch": "午餐" },
-    { "category_dinner": "晚餐" },
-    { "category_shopping": "购物" },
-    { "category_digital": "数字" },
-    { "category_transport": "交通" },
-    { "category_entertainment": "娱乐" },
-    { "category_medical": "医疗" },
-    { "category_insurance": "保险" },
-    { "category_gift": "礼物" },
-    { "category_travel": "旅游" },
-    { "category_fitness": "健身" },
-    { "category_housing": "居住" },
-    { "category_others": "其他" },
-    { "category_salary": "薪资" },
-    { "category_bonus": "奖金" },
-    { "category_investment_income": "投资" },
-    { "category_gift_allowance": "礼金" },
-    { "category_other_income": "其他收入" },
-    { "common_edit": "编辑" },
-    { "common_unsaved_changes": "未儲存的變更" },
-    { "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？" },
-    { "common_discard": "捨棄" },
-    { "category_delete_title": "刪除類別" },
-    { "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。" },
-    { "settings_subscriptions": "订阅服务" },
-    { "settings_subscriptions_add": "新增订阅" },
-    { "settings_subscriptions_empty": "尚无订阅" },
-    { "settings_subscriptions_empty_desc": "在此追踪您的定期支出，例如 Netflix、Spotify 或健身房。" },
-    { "monthly": "每月" },
-    { "yearly": "每年" },
-    { "common_inactive": "已停用" },
-    { "settings_subscription_delete_confirm": "您确定要删除此订阅吗？系统将停止自动建立记录。" },
-    { "common_ok": "确定" },
-    { "category_delete_error_has_records": "无法删除该类别，因为它包含交易记录。请先删除所有相关记录。" },
-    { "settings_recurring_records": "定期记录" },
-    { "settings_recurring_add": "新增定期记录" },
-    { "settings_recurring_empty": "尚无定期记录" },
-    { "settings_recurring_empty_desc": "自动化您的定期支出 or 收入，例如房租、薪资 or 水电费。" },
-    { "settings_recurring_delete_confirm": "您确定要删除此定期记录吗？系统将停止自动建立记录。" },
-    { "common_repeat_every": "每隔" },
-    { "common_unit_day": "天" },
-    { "common_unit_week": "周" },
-    { "common_unit_month": "月" },
-    { "common_unit_quarter": "季" },
-    { "common_unit_year": "年" },
-    { "common_recurrence": "重複頻率" },
-    { "common_start_date": "开始日期" },
-    { "common_error_required": "此栏位为必填" },
-    { "common_name": "名称" },
-    { "common_done": "完成" },
-    { "common_automated": "自动" },
-    { "common_subscription": "订阅" },
-    { "common_recurring": "定期" },
-    { "bottom_bar_home": "首页" },
-    { "bottom_bar_calendar": "日历" },
-    { "bottom_bar_reports": "报表" },
-    { "settings_general": "常规" },
-    { "settings_daily_reminder": "每日提醒" },
-    { "settings_smart_category_sorting": "智能类别排序" },
-    { "settings_tutorial": "教程" },
-    { "settings_terms_of_service": "服务条款" },
-    { "settings_select_language": "选择语言" },
-    { "settings_select_currency": "选择货币" },
-    { "settings_dark_mode": "深色模式" },
-    { "data_transfer_page_title": "数据传输" },
-    { "export_data_title": "导出数据" },
-    { "export_data_subtitle": "导出所有交易记录与设置" },
-    { "import_data_title": "导入数据" },
-    { "import_data_subtitle": "从备份文件还原数据" },
-    { "import_data_warning": "导入数据将覆盖您目前的本地记录。您确定吗？" },
-    { "common_import": "导入" },
-    { "report_title": "财务报表" },
-    { "report_category_breakdown": "类别分析" },
-    { "common_retry": "重试" },
-    { "common_unknown": "未知" },
-    { "common_go_to_current_month": "回到本月" },
-    { "home_category_distribution": "类别分布" },
-    { "home_no_record": "找不到记录" },
-    { "home_no_transactions": "尚无交易" },
-    { "home_no_transactions_to_display": "此期间尚无可显示的交易" },
-    { "home_quick_action_budget": "预算" },
-    { "home_recent_activity": "最近活动" },
-    { "common_please_enter_amount": "请输入金额" },
-    { "common_select_date": "选择日期" },
-    { "common_overview": "概览" },
-    { "date_format_month_year": "yyyy年MM月" }
+    {
+      "language": "简体中文"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "删除"
+    },
+    {
+      "record_add_record": "记录添加"
+    },
+    {
+      "record_edit_record": "记录编辑"
+    },
+    {
+      "common_expense": "支出"
+    },
+    {
+      "common_income": "收入"
+    },
+    {
+      "common_save": "保存"
+    },
+    {
+      "common_cancel": "取消"
+    },
+    {
+      "common_confirm": "确认"
+    },
+    {
+      "common_add": "添加"
+    },
+    {
+      "common_category": "类别"
+    },
+    {
+      "common_amount": "金额"
+    },
+    {
+      "common_date": "日期"
+    },
+    {
+      "common_remark": "备注"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "请输入有效金额"
+    },
+    {
+      "common_please_select_category": "请选择类别"
+    },
+    {
+      "common_all": "全部"
+    },
+    {
+      "common_total": "总计"
+    },
+    {
+      "common_balance": "余额"
+    },
+    {
+      "home_tab_history": "历史"
+    },
+    {
+      "home_tab_calendar": "日历"
+    },
+    {
+      "home_total_balance": "总余额"
+    },
+    {
+      "home_monthly_expense": "本月支出"
+    },
+    {
+      "home_monthly_income": "本月收入"
+    },
+    {
+      "home_quick_action_add": "添加"
+    },
+    {
+      "home_quick_action_report": "报表"
+    },
+    {
+      "home_quick_action_categories": "类别"
+    },
+    {
+      "home_quick_action_history": "历史"
+    },
+    {
+      "home_no_record_hint": "尝试切换到其他月份"
+    },
+    {
+      "home_greeting": "你好，"
+    },
+    {
+      "report_failed_load": "无法加载记录"
+    },
+    {
+      "report_swipe_instruction": "左右滑动图表切换月份"
+    },
+    {
+      "report_view_trend": "趋势"
+    },
+    {
+      "report_view_breakdown": "分布"
+    },
+    {
+      "report_trend_positive": "正向"
+    },
+    {
+      "report_trend_negative": "负向"
+    },
+    {
+      "report_monthly_balance": "每月余额"
+    },
+    {
+      "common_expenses": "支出"
+    },
+    {
+      "record_remark_hint": "这笔款项是用来做什么的？"
+    },
+    {
+      "settings_title": "设置"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz 用户"
+    },
+    {
+      "settings_account_type_free": "免费账户"
+    },
+    {
+      "settings_appearance": "外观"
+    },
+    {
+      "settings_theme_mode": "主题模式"
+    },
+    {
+      "settings_theme_light": "浅色"
+    },
+    {
+      "settings_theme_dark": "深色"
+    },
+    {
+      "settings_theme_system": "系统默认"
+    },
+    {
+      "settings_localization": "本地化"
+    },
+    {
+      "settings_language": "语言"
+    },
+    {
+      "settings_currency": "货币"
+    },
+    {
+      "settings_notifications": "通知"
+    },
+    {
+      "settings_data": "数据"
+    },
+    {
+      "settings_data_transfer": "数据传输"
+    },
+    {
+      "settings_about": "关于"
+    },
+    {
+      "settings_version": "版本"
+    },
+    {
+      "reminder_daily_title": "每日提醒"
+    },
+    {
+      "reminder_daily_description": "不再错过任何记录。每日接收提醒以追踪您的支出。"
+    },
+    {
+      "reminder_enable": "启用每日提醒"
+    },
+    {
+      "reminder_time": "提醒时间"
+    },
+    {
+      "notification_daily_title": "Koinz 提醒"
+    },
+    {
+      "notification_daily_body": "别忘了记录今天的交易哦！"
+    },
+    {
+      "common_next": "下一步"
+    },
+    {
+      "common_month_1": "一月"
+    },
+    {
+      "common_month_2": "二月"
+    },
+    {
+      "common_month_3": "三月"
+    },
+    {
+      "common_month_4": "四月"
+    },
+    {
+      "common_month_5": "五月"
+    },
+    {
+      "common_month_6": "六月"
+    },
+    {
+      "common_month_7": "七月"
+    },
+    {
+      "common_month_8": "八月"
+    },
+    {
+      "common_month_9": "九月"
+    },
+    {
+      "common_month_10": "十月"
+    },
+    {
+      "common_month_11": "十一月"
+    },
+    {
+      "common_month_12": "十二月"
+    },
+    {
+      "common_month_short_1": "1月"
+    },
+    {
+      "common_month_short_2": "2月"
+    },
+    {
+      "common_month_short_3": "3月"
+    },
+    {
+      "common_month_short_4": "4月"
+    },
+    {
+      "common_month_short_5": "5月"
+    },
+    {
+      "common_month_short_6": "6月"
+    },
+    {
+      "common_month_short_7": "7月"
+    },
+    {
+      "common_month_short_8": "8月"
+    },
+    {
+      "common_month_short_9": "9月"
+    },
+    {
+      "common_month_short_10": "10月"
+    },
+    {
+      "common_month_short_11": "11月"
+    },
+    {
+      "common_month_short_12": "12月"
+    },
+    {
+      "common_weekday_1": "星期一"
+    },
+    {
+      "common_weekday_2": "星期二"
+    },
+    {
+      "common_weekday_3": "星期三"
+    },
+    {
+      "common_weekday_4": "星期四"
+    },
+    {
+      "common_weekday_5": "星期五"
+    },
+    {
+      "common_weekday_6": "星期六"
+    },
+    {
+      "common_weekday_7": "星期日"
+    },
+    {
+      "backup_settings_title": "备份设置"
+    },
+    {
+      "backup_path_title": "备份路径"
+    },
+    {
+      "backup_path_not_set": "请选择一个文件夹以启用自动备份"
+    },
+    {
+      "backup_path_mobile_note": "注：移动操作系统可能会限制对外部文件夹的后台写入。为了获得最佳可靠性，请使用内部存储。"
+    },
+    {
+      "backup_path_reset": "重置为应用程序文档"
+    },
+    {
+      "auto_backup_title": "自动备份"
+    },
+    {
+      "auto_backup_subtitle": "每 24 小时自动备份您的数据"
+    },
+    {
+      "manual_actions_title": "手动操作"
+    },
+    {
+      "export_success": "数据备份成功！"
+    },
+    {
+      "export_failure": "备份失败。请检查权限。"
+    },
+    {
+      "import_success": "数据导入成功！"
+    },
+    {
+      "import_failure": "导入失败。文件格式无效。"
+    },
+    {
+      "settings_categories_management": "类别管理"
+    },
+    {
+      "add_category_title": "添加类别"
+    },
+    {
+      "add_category_name": "类别名称"
+    },
+    {
+      "add_category_name_error": "请输入类别名称"
+    },
+    {
+      "add_category_select_color": "选择颜色"
+    },
+    {
+      "add_category_select_icon": "选择图标"
+    },
+    {
+      "add_category_preview": "预览"
+    },
+    {
+      "add_category_error_icon": "请选择一个图标"
+    },
+    {
+      "add_category_error_color": "请选择一个颜色"
+    },
+    {
+      "edit_category_title": "编辑类别"
+    },
+    {
+      "smart_sorting_title": "智能排序"
+    },
+    {
+      "smart_sorting_subtitle": "根据使用频率自动重新排序类别"
+    },
+    {
+      "smart_sorting_active_warning": "智能排序已启用。类别按使用频率排序。如需手动排序，请在设置中停用智能排序。"
+    },
+    {
+      "category_management_reorder_help": "長按並拖動以重新排序類別"
+    },
+    {
+      "category_management_long_press_edit": "長按進入編輯模式"
+    },
+    {
+      "category_management_drag_reorder": "拖動以重新排序"
+    },
+    {
+      "category_breakfast": "早餐"
+    },
+    {
+      "category_lunch": "午餐"
+    },
+    {
+      "category_dinner": "晚餐"
+    },
+    {
+      "category_shopping": "购物"
+    },
+    {
+      "category_digital": "数字"
+    },
+    {
+      "category_transport": "交通"
+    },
+    {
+      "category_entertainment": "娱乐"
+    },
+    {
+      "category_medical": "医疗"
+    },
+    {
+      "category_insurance": "保险"
+    },
+    {
+      "category_gift": "礼物"
+    },
+    {
+      "category_travel": "旅游"
+    },
+    {
+      "category_fitness": "健身"
+    },
+    {
+      "category_housing": "居住"
+    },
+    {
+      "category_others": "其他"
+    },
+    {
+      "category_salary": "薪资"
+    },
+    {
+      "category_bonus": "奖金"
+    },
+    {
+      "category_investment_income": "投资"
+    },
+    {
+      "category_gift_allowance": "礼金"
+    },
+    {
+      "category_other_income": "其他收入"
+    },
+    {
+      "common_edit": "编辑"
+    },
+    {
+      "common_unsaved_changes": "未儲存的變更"
+    },
+    {
+      "common_discard_changes_warning": "您有未儲存的變更。確定要捨棄嗎？"
+    },
+    {
+      "common_discard": "捨棄"
+    },
+    {
+      "category_delete_title": "刪除類別"
+    },
+    {
+      "category_delete_warning": "您確定要刪除此類別嗎？所有相關紀錄也將被刪除。"
+    },
+    {
+      "settings_subscriptions": "订阅服务"
+    },
+    {
+      "settings_subscriptions_add": "新增订阅"
+    },
+    {
+      "settings_subscriptions_empty": "尚无订阅"
+    },
+    {
+      "settings_subscriptions_empty_desc": "在此追踪您的定期支出，例如 Netflix、Spotify 或健身房。"
+    },
+    {
+      "monthly": "每月"
+    },
+    {
+      "yearly": "每年"
+    },
+    {
+      "common_inactive": "已停用"
+    },
+    {
+      "settings_subscription_delete_confirm": "您确定要删除此订阅吗？系统将停止自动建立记录。"
+    },
+    {
+      "common_ok": "确定"
+    },
+    {
+      "category_delete_error_has_records": "无法删除该类别，因为它包含交易记录。请先删除所有相关记录。"
+    },
+    {
+      "settings_recurring_records": "定期记录"
+    },
+    {
+      "settings_recurring_add": "新增定期记录"
+    },
+    {
+      "settings_recurring_empty": "尚无定期记录"
+    },
+    {
+      "settings_recurring_empty_desc": "自动化您的定期支出 or 收入，例如房租、薪资 or 水电费。"
+    },
+    {
+      "settings_recurring_delete_confirm": "您确定要删除此定期记录吗？系统将停止自动建立记录。"
+    },
+    {
+      "common_repeat_every": "每隔"
+    },
+    {
+      "common_unit_day": "天"
+    },
+    {
+      "common_unit_week": "周"
+    },
+    {
+      "common_unit_month": "月"
+    },
+    {
+      "common_unit_quarter": "季"
+    },
+    {
+      "common_unit_year": "年"
+    },
+    {
+      "common_recurrence": "重複頻率"
+    },
+    {
+      "common_start_date": "开始日期"
+    },
+    {
+      "common_error_required": "此栏位为必填"
+    },
+    {
+      "common_name": "名称"
+    },
+    {
+      "common_done": "完成"
+    },
+    {
+      "common_automated": "自动"
+    },
+    {
+      "common_subscription": "订阅"
+    },
+    {
+      "common_recurring": "定期"
+    },
+    {
+      "bottom_bar_home": "首页"
+    },
+    {
+      "bottom_bar_calendar": "日历"
+    },
+    {
+      "bottom_bar_reports": "报表"
+    },
+    {
+      "settings_general": "常规"
+    },
+    {
+      "settings_daily_reminder": "每日提醒"
+    },
+    {
+      "settings_smart_category_sorting": "智能类别排序"
+    },
+    {
+      "settings_tutorial": "教程"
+    },
+    {
+      "settings_terms_of_service": "服务条款"
+    },
+    {
+      "settings_select_language": "选择语言"
+    },
+    {
+      "settings_select_currency": "选择货币"
+    },
+    {
+      "settings_dark_mode": "深色模式"
+    },
+    {
+      "data_transfer_page_title": "数据传输"
+    },
+    {
+      "export_data_title": "导出数据"
+    },
+    {
+      "export_data_subtitle": "导出所有交易记录与设置"
+    },
+    {
+      "import_data_title": "导入数据"
+    },
+    {
+      "import_data_subtitle": "从备份文件还原数据"
+    },
+    {
+      "import_data_warning": "导入数据将覆盖您目前的本地记录。您确定吗？"
+    },
+    {
+      "common_import": "导入"
+    },
+    {
+      "report_title": "财务报表"
+    },
+    {
+      "report_category_breakdown": "类别分析"
+    },
+    {
+      "common_retry": "重试"
+    },
+    {
+      "common_unknown": "未知"
+    },
+    {
+      "common_go_to_current_month": "回到本月"
+    },
+    {
+      "home_category_distribution": "类别分布"
+    },
+    {
+      "home_no_record": "找不到记录"
+    },
+    {
+      "home_no_transactions": "尚无交易"
+    },
+    {
+      "home_no_transactions_to_display": "此期间尚无可显示的交易"
+    },
+    {
+      "home_quick_action_budget": "预算"
+    },
+    {
+      "home_recent_activity": "最近活动"
+    },
+    {
+      "common_please_enter_amount": "请输入金额"
+    },
+    {
+      "common_select_date": "选择日期"
+    },
+    {
+      "common_overview": "概览"
+    },
+    {
+      "date_format_month_year": "yyyy年MM月"
+    },
+    {
+      "budget_system_budget": "系统预算"
+    },
+    {
+      "budget_stable": "稳定"
+    },
+    {
+      "budget_warning": "警告"
+    },
+    {
+      "budget_critical": "危险"
+    },
+    {
+      "budget_remaining": "剩余"
+    },
+    {
+      "budget_monthly_allocation": "每月分配"
+    },
+    {
+      "budget_utilized": "已使用"
+    },
+    {
+      "budget_available": "可用"
+    },
+    {
+      "budget_alert_threshold": "警报阈值"
+    },
+    {
+      "budget_alert_gates": "警报点"
+    },
+    {
+      "budget_notify_description": "当支出达到此百分比时通知我。"
+    },
+    {
+      "budget_save_changes": "保存系统更改"
+    },
+    {
+      "budget_discard_title": "放弃更改？"
+    },
+    {
+      "budget_discard_description": "您的系统预算设置有未保存的更改。"
+    },
+    {
+      "budget_system_offline": "系统离线"
+    },
+    {
+      "recent_activity_log_history": "日志历史"
+    },
+    {
+      "recent_activity_title": "最近活动"
+    },
+    {
+      "recent_activity_input_on": "输入于"
+    },
+    {
+      "recent_activity_recorded_for": "记录于"
+    },
+    {
+      "recent_activity_no_activity": "找不到活动"
+    },
+    {
+      "recent_activity_no_records": "找不到记录"
+    },
+    {
+      "budget_amount_hint": "输入金额"
+    },
+    {
+      "budget_new_alert_point": "新增警报点"
+    }
   ],
   "ja": [
-    { "language": "日本語" },
-    { "app_title": "Koinz" },
-    { "common_delete": "削除" },
-    { "record_add_record": "記録を追加" },
-    { "record_edit_record": "記録を編集" },
-    { "common_expense": "支出" },
-    { "common_income": "収入" },
-    { "common_save": "保存" },
-    { "common_cancel": "キャンセル" },
-    { "common_confirm": "確認" },
-    { "common_add": "追加" },
-    { "common_category": "カテゴリ" },
-    { "common_amount": "金額" },
-    { "common_date": "日付" },
-    { "common_remark": "備考" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "有効な数値を入力してください" },
-    { "common_please_select_category": "カテゴリを選択してください" },
-    { "common_all": "すべて" },
-    { "common_total": "合計" },
-    { "common_balance": "残高" },
-    { "home_tab_history": "履歴" },
-    { "home_tab_calendar": "カレンダー" },
-    { "home_total_balance": "総残高" },
-    { "home_monthly_expense": "今月の支出" },
-    { "home_monthly_income": "今月の収入" },
-    { "home_quick_action_add": "追加" },
-    { "home_quick_action_report": "レポート" },
-    { "home_quick_action_categories": "カテゴリ" },
-    { "home_quick_action_history": "履歴" },
-    { "home_no_record_hint": "別の月に切り替えてみてください" },
-    { "home_greeting": "こんにちは、 " },
-    { "report_failed_load": "記録の読み込みに失敗しました" },
-    { "report_swipe_instruction": "チャートをスワイプして月を変更" },
-    { "report_view_trend": "トレンド" },
-    { "report_view_breakdown": "内訳" },
-    { "report_trend_positive": "ポジティブ" },
-    { "report_trend_negative": "ネガティブ" },
-    { "report_monthly_balance": "月間収支" },
-    { "common_expenses": "支出" },
-    { "record_remark_hint": "何のための支払いですか？" },
-    { "settings_title": "設定" },
-    { "settings_user_name_placeholder": "Koinz ユーザー" },
-    { "settings_account_type_free": "無料アカウント" },
-    { "settings_appearance": "外観" },
-    { "settings_theme_mode": "テーマモード" },
-    { "settings_theme_light": "ライト" },
-    { "settings_theme_dark": "ダーク" },
-    { "settings_theme_system": "システム" },
-    { "settings_localization": "ローカライズ" },
-    { "settings_language": "言語" },
-    { "settings_currency": "通貨" },
-    { "settings_notifications": "通知" },
-    { "settings_data": "データ" },
-    { "settings_data_transfer": "データ転送" },
-    { "settings_about": "情報" },
-    { "settings_version": "バージョン" },
-    { "reminder_daily_title": "毎日リマインダー" },
-    { "reminder_daily_description": "記録を忘れないように。支出を追跡するための毎日のリマインダーを受け取ります。" },
-    { "reminder_enable": "毎日リマインダーを有効にする" },
-    { "reminder_time": "リマインダー時間" },
-    { "notification_daily_title": "Koinz リマインダー" },
-    { "notification_daily_body": "今日の収支を記録するのを忘れないでくださいね！" },
-    { "common_next": "次へ" },
-    { "common_month_1": "1月" },
-    { "common_month_2": "2月" },
-    { "common_month_3": "3月" },
-    { "common_month_4": "4月" },
-    { "common_month_5": "5月" },
-    { "common_month_6": "6月" },
-    { "common_month_7": "7月" },
-    { "common_month_8": "8月" },
-    { "common_month_9": "9月" },
-    { "common_month_10": "10月" },
-    { "common_month_11": "11月" },
-    { "common_month_12": "12月" },
-    { "common_month_short_1": "1月" },
-    { "common_month_short_2": "2月" },
-    { "common_month_short_3": "3月" },
-    { "common_month_short_4": "4月" },
-    { "common_month_short_5": "5月" },
-    { "common_month_short_6": "6月" },
-    { "common_month_short_7": "7月" },
-    { "common_month_short_8": "8月" },
-    { "common_month_short_9": "9月" },
-    { "common_month_short_10": "10月" },
-    { "common_month_short_11": "11月" },
-    { "common_month_short_12": "12月" },
-    { "common_weekday_1": "月曜日" },
-    { "common_weekday_2": "火曜日" },
-    { "common_weekday_3": "水曜日" },
-    { "common_weekday_4": "木曜日" },
-    { "common_weekday_5": "金曜日" },
-    { "common_weekday_6": "土曜日" },
-    { "common_weekday_7": "日曜日" },
-    { "backup_settings_title": "バックアップ設定" },
-    { "backup_path_title": "バックアップ先" },
-    { "backup_path_not_set": "自動バックアップを有効にするには、フォルダを選択してください" },
-    { "backup_path_mobile_note": "注：モバイルOSは外部フォルダへのバックグラウンド書き込みを制限する場合があります。信頼性を高めるため、内部ストレージを使用してください。" },
-    { "backup_path_reset": "アプリのドキュメントにリセット" },
-    { "auto_backup_title": "自動バックアップ" },
-    { "auto_backup_subtitle": "24 時間ごとにデータを自動的にバックアップします" },
-    { "manual_actions_title": "手動アクション" },
-    { "export_success": "データのバックアップに成功しました！" },
-    { "export_failure": "バックアップに失敗しました。権限を確認してください。" },
-    { "import_success": "データのインポートに成功しました！" },
-    { "import_failure": "インポートに失敗しました。ファイル形式が無効です。" },
-    { "settings_categories_management": "カテゴリ管理" },
-    { "add_category_title": "カテゴリを追加" },
-    { "add_category_name": "カテゴリ名" },
-    { "add_category_name_error": "カテゴリ名を入力してください" },
-    { "add_category_select_color": "色を選択" },
-    { "add_category_select_icon": "アイコンを選択" },
-    { "add_category_preview": "プレビュー" },
-    { "add_category_error_icon": "アイコンを選択してください" },
-    { "add_category_error_color": "色を選択してください" },
-    { "edit_category_title": "カテゴリを編集" },
-    { "smart_sorting_title": "スマートソート" },
-    { "smart_sorting_subtitle": "使用頻度に基づいてカテゴリを自動的に並べ替えます" },
-    { "smart_sorting_active_warning": "スマートソートが有効です。カテゴリは使用頻度順に並んでいます。手動で並べ替えるには、設定でスマートソートを無効にしてください。" },
-    { "category_management_reorder_help": "長押ししてドラッグするとカテゴリの順序を入れ替えられます" },
-    { "category_management_long_press_edit": "長押しして編集モードに入ります" },
-    { "category_management_drag_reorder": "ドラッグして順序を入れ替えます" },
-    { "category_breakfast": "朝食" },
-    { "category_lunch": "昼食" },
-    { "category_dinner": "夕食" },
-    { "category_shopping": "買い物" },
-    { "category_digital": "デジタル" },
-    { "category_transport": "交通" },
-    { "category_entertainment": "娯楽" },
-    { "category_medical": "医療" },
-    { "category_insurance": "保険" },
-    { "category_gift": "ギフト" },
-    { "category_travel": "旅行" },
-    { "category_fitness": "フィットネス" },
-    { "category_housing": "住宅" },
-    { "category_others": "その他" },
-    { "category_salary": "給与" },
-    { "category_bonus": "ボーナス" },
-    { "category_investment_income": "投資" },
-    { "category_gift_allowance": "お祝い金" },
-    { "category_other_income": "その他の収入" },
-    { "common_edit": "編集" },
-    { "common_unsaved_changes": "未保存の変更" },
-    { "common_discard_changes_warning": "未保存の変更があります。破棄してもよろしいですか？" },
-    { "common_discard": "破棄" },
-    { "category_delete_title": "カテゴリを削除" },
-    { "category_delete_warning": "このカテゴリを削除してもよろしいですか？関連するすべての記録も削除されます。" },
-    { "settings_subscriptions": "サブスクリプション" },
-    { "settings_subscriptions_add": "サブスクを追加" },
-    { "settings_subscriptions_empty": "サブスクなし" },
-    { "settings_subscriptions_empty_desc": "Netflix、Spotify、ジムなどの定期的な支出をここで追跡します。" },
-    { "monthly": "月払い" },
-    { "yearly": "年払い" },
-    { "common_inactive": "無効" },
-    { "settings_subscription_delete_confirm": "このサブスクリプションを削除してもよろしいですか？自動記録の作成が停止されます。" },
-    { "common_ok": "OK" },
-    { "category_delete_error_has_records": "レコードが含まれているため、このカテゴリを削除できません。最初に関連するすべてのレコードを削除してください。" },
-    { "settings_recurring_records": "定期的な記録" },
-    { "settings_recurring_add": "定期的な記録を追加" },
-    { "settings_recurring_empty": "定期的な記録はありません" },
-    { "settings_recurring_empty_desc": "家賃、給料、公共料金などの定期的な支出や収入を自動化します。" },
-    { "settings_recurring_delete_confirm": "この定期的な記録を削除してもよろしいですか？自動記録の作成が停止されます。" },
-    { "common_repeat_every": "繰り返す間隔" },
-    { "common_unit_day": "日" },
-    { "common_unit_week": "週" },
-    { "common_unit_month": "月" },
-    { "common_unit_quarter": "四半期" },
-    { "common_unit_year": "年" },
-    { "common_recurrence": "繰り返し" },
-    { "common_start_date": "開始日" },
-    { "common_error_required": "このフィールドは必須です" },
-    { "common_name": "名称" },
-    { "common_done": "完了" },
-    { "common_automated": "自動" },
-    { "common_subscription": "サブスク" },
-    { "common_recurring": "定期" },
-    { "bottom_bar_home": "ホーム" },
-    { "bottom_bar_calendar": "カレンダー" },
-    { "bottom_bar_reports": "レポート" },
-    { "settings_general": "全般" },
-    { "settings_daily_reminder": "毎日リマインダー" },
-    { "settings_smart_category_sorting": "カテゴリのスマートソート" },
-    { "settings_tutorial": "チュートリアル" },
-    { "settings_terms_of_service": "利用規約" },
-    { "settings_select_language": "言語を選択" },
-    { "settings_select_currency": "通貨を選択" },
-    { "settings_dark_mode": "ダークモード" },
-    { "data_transfer_page_title": "データ転送" },
-    { "export_data_title": "データをエクスポート" },
-    { "export_data_subtitle": "すべての取引記録と設定をエクスポート" },
-    { "import_data_title": "データをインポート" },
-    { "import_data_subtitle": "バックアップファイルからデータを復元" },
-    { "import_data_warning": "データをインポートすると現在のローカル記録が上書きされます。よろしいですか？" },
-    { "common_import": "インポート" },
-    { "report_title": "財務レポート" },
-    { "report_category_breakdown": "カテゴリ分析" },
-    { "common_retry": "再試行" },
-    { "common_unknown": "不明" },
-    { "common_go_to_current_month": "今月に戻る" },
-    { "home_category_distribution": "カテゴリ分布" },
-    { "home_no_record": "記録が見つかりません" },
-    { "home_no_transactions": "取引なし" },
-    { "home_no_transactions_to_display": "この期間の取引はありません" },
-    { "home_quick_action_budget": "予算" },
-    { "home_recent_activity": "最近の活動" },
-    { "common_please_enter_amount": "金額を入力してください" },
-    { "common_select_date": "日付を選択" },
-    { "common_overview": "概要" },
-    { "date_format_month_year": "yyyy年MM月" }
+    {
+      "language": "日本語"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "削除"
+    },
+    {
+      "record_add_record": "記録を追加"
+    },
+    {
+      "record_edit_record": "記録を編集"
+    },
+    {
+      "common_expense": "支出"
+    },
+    {
+      "common_income": "収入"
+    },
+    {
+      "common_save": "保存"
+    },
+    {
+      "common_cancel": "キャンセル"
+    },
+    {
+      "common_confirm": "確認"
+    },
+    {
+      "common_add": "追加"
+    },
+    {
+      "common_category": "カテゴリ"
+    },
+    {
+      "common_amount": "金額"
+    },
+    {
+      "common_date": "日付"
+    },
+    {
+      "common_remark": "備考"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "有効な数値を入力してください"
+    },
+    {
+      "common_please_select_category": "カテゴリを選択してください"
+    },
+    {
+      "common_all": "すべて"
+    },
+    {
+      "common_total": "合計"
+    },
+    {
+      "common_balance": "残高"
+    },
+    {
+      "home_tab_history": "履歴"
+    },
+    {
+      "home_tab_calendar": "カレンダー"
+    },
+    {
+      "home_total_balance": "総残高"
+    },
+    {
+      "home_monthly_expense": "今月の支出"
+    },
+    {
+      "home_monthly_income": "今月の収入"
+    },
+    {
+      "home_quick_action_add": "追加"
+    },
+    {
+      "home_quick_action_report": "レポート"
+    },
+    {
+      "home_quick_action_categories": "カテゴリ"
+    },
+    {
+      "home_quick_action_history": "履歴"
+    },
+    {
+      "home_no_record_hint": "別の月に切り替えてみてください"
+    },
+    {
+      "home_greeting": "こんにちは、 "
+    },
+    {
+      "report_failed_load": "記録の読み込みに失敗しました"
+    },
+    {
+      "report_swipe_instruction": "チャートをスワイプして月を変更"
+    },
+    {
+      "report_view_trend": "トレンド"
+    },
+    {
+      "report_view_breakdown": "内訳"
+    },
+    {
+      "report_trend_positive": "ポジティブ"
+    },
+    {
+      "report_trend_negative": "ネガティブ"
+    },
+    {
+      "report_monthly_balance": "月間収支"
+    },
+    {
+      "common_expenses": "支出"
+    },
+    {
+      "record_remark_hint": "何のための支払いですか？"
+    },
+    {
+      "settings_title": "設定"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz ユーザー"
+    },
+    {
+      "settings_account_type_free": "無料アカウント"
+    },
+    {
+      "settings_appearance": "外観"
+    },
+    {
+      "settings_theme_mode": "テーマモード"
+    },
+    {
+      "settings_theme_light": "ライト"
+    },
+    {
+      "settings_theme_dark": "ダーク"
+    },
+    {
+      "settings_theme_system": "システム"
+    },
+    {
+      "settings_localization": "ローカライズ"
+    },
+    {
+      "settings_language": "言語"
+    },
+    {
+      "settings_currency": "通貨"
+    },
+    {
+      "settings_notifications": "通知"
+    },
+    {
+      "settings_data": "データ"
+    },
+    {
+      "settings_data_transfer": "データ転送"
+    },
+    {
+      "settings_about": "情報"
+    },
+    {
+      "settings_version": "バージョン"
+    },
+    {
+      "reminder_daily_title": "毎日リマインダー"
+    },
+    {
+      "reminder_daily_description": "記録を忘れないように。支出を追跡するための毎日のリマインダーを受け取ります。"
+    },
+    {
+      "reminder_enable": "毎日リマインダーを有効にする"
+    },
+    {
+      "reminder_time": "リマインダー時間"
+    },
+    {
+      "notification_daily_title": "Koinz リマインダー"
+    },
+    {
+      "notification_daily_body": "今日の収支を記録するのを忘れないでくださいね！"
+    },
+    {
+      "common_next": "次へ"
+    },
+    {
+      "common_month_1": "1月"
+    },
+    {
+      "common_month_2": "2月"
+    },
+    {
+      "common_month_3": "3月"
+    },
+    {
+      "common_month_4": "4月"
+    },
+    {
+      "common_month_5": "5月"
+    },
+    {
+      "common_month_6": "6月"
+    },
+    {
+      "common_month_7": "7月"
+    },
+    {
+      "common_month_8": "8月"
+    },
+    {
+      "common_month_9": "9月"
+    },
+    {
+      "common_month_10": "10月"
+    },
+    {
+      "common_month_11": "11月"
+    },
+    {
+      "common_month_12": "12月"
+    },
+    {
+      "common_month_short_1": "1月"
+    },
+    {
+      "common_month_short_2": "2月"
+    },
+    {
+      "common_month_short_3": "3月"
+    },
+    {
+      "common_month_short_4": "4月"
+    },
+    {
+      "common_month_short_5": "5月"
+    },
+    {
+      "common_month_short_6": "6月"
+    },
+    {
+      "common_month_short_7": "7月"
+    },
+    {
+      "common_month_short_8": "8月"
+    },
+    {
+      "common_month_short_9": "9月"
+    },
+    {
+      "common_month_short_10": "10月"
+    },
+    {
+      "common_month_short_11": "11月"
+    },
+    {
+      "common_month_short_12": "12月"
+    },
+    {
+      "common_weekday_1": "月曜日"
+    },
+    {
+      "common_weekday_2": "火曜日"
+    },
+    {
+      "common_weekday_3": "水曜日"
+    },
+    {
+      "common_weekday_4": "木曜日"
+    },
+    {
+      "common_weekday_5": "金曜日"
+    },
+    {
+      "common_weekday_6": "土曜日"
+    },
+    {
+      "common_weekday_7": "日曜日"
+    },
+    {
+      "backup_settings_title": "バックアップ設定"
+    },
+    {
+      "backup_path_title": "バックアップ先"
+    },
+    {
+      "backup_path_not_set": "自動バックアップを有効にするには、フォルダを選択してください"
+    },
+    {
+      "backup_path_mobile_note": "注：モバイルOSは外部フォルダへのバックグラウンド書き込みを制限する場合があります。信頼性を高めるため、内部ストレージを使用してください。"
+    },
+    {
+      "backup_path_reset": "アプリのドキュメントにリセット"
+    },
+    {
+      "auto_backup_title": "自動バックアップ"
+    },
+    {
+      "auto_backup_subtitle": "24 時間ごとにデータを自動的にバックアップします"
+    },
+    {
+      "manual_actions_title": "手動アクション"
+    },
+    {
+      "export_success": "データのバックアップに成功しました！"
+    },
+    {
+      "export_failure": "バックアップに失敗しました。権限を確認してください。"
+    },
+    {
+      "import_success": "データのインポートに成功しました！"
+    },
+    {
+      "import_failure": "インポートに失敗しました。ファイル形式が無効です。"
+    },
+    {
+      "settings_categories_management": "カテゴリ管理"
+    },
+    {
+      "add_category_title": "カテゴリを追加"
+    },
+    {
+      "add_category_name": "カテゴリ名"
+    },
+    {
+      "add_category_name_error": "カテゴリ名を入力してください"
+    },
+    {
+      "add_category_select_color": "色を選択"
+    },
+    {
+      "add_category_select_icon": "アイコンを選択"
+    },
+    {
+      "add_category_preview": "プレビュー"
+    },
+    {
+      "add_category_error_icon": "アイコンを選択してください"
+    },
+    {
+      "add_category_error_color": "色を選択してください"
+    },
+    {
+      "edit_category_title": "カテゴリを編集"
+    },
+    {
+      "smart_sorting_title": "スマートソート"
+    },
+    {
+      "smart_sorting_subtitle": "使用頻度に基づいてカテゴリを自動的に並べ替えます"
+    },
+    {
+      "smart_sorting_active_warning": "スマートソートが有効です。カテゴリは使用頻度順に並んでいます。手動で並べ替えるには、設定でスマートソートを無効にしてください。"
+    },
+    {
+      "category_management_reorder_help": "長押ししてドラッグするとカテゴリの順序を入れ替えられます"
+    },
+    {
+      "category_management_long_press_edit": "長押しして編集モードに入ります"
+    },
+    {
+      "category_management_drag_reorder": "ドラッグして順序を入れ替えます"
+    },
+    {
+      "category_breakfast": "朝食"
+    },
+    {
+      "category_lunch": "昼食"
+    },
+    {
+      "category_dinner": "夕食"
+    },
+    {
+      "category_shopping": "買い物"
+    },
+    {
+      "category_digital": "デジタル"
+    },
+    {
+      "category_transport": "交通"
+    },
+    {
+      "category_entertainment": "娯楽"
+    },
+    {
+      "category_medical": "医療"
+    },
+    {
+      "category_insurance": "保険"
+    },
+    {
+      "category_gift": "ギフト"
+    },
+    {
+      "category_travel": "旅行"
+    },
+    {
+      "category_fitness": "フィットネス"
+    },
+    {
+      "category_housing": "住宅"
+    },
+    {
+      "category_others": "その他"
+    },
+    {
+      "category_salary": "給与"
+    },
+    {
+      "category_bonus": "ボーナス"
+    },
+    {
+      "category_investment_income": "投資"
+    },
+    {
+      "category_gift_allowance": "お祝い金"
+    },
+    {
+      "category_other_income": "その他の収入"
+    },
+    {
+      "common_edit": "編集"
+    },
+    {
+      "common_unsaved_changes": "未保存の変更"
+    },
+    {
+      "common_discard_changes_warning": "未保存の変更があります。破棄してもよろしいですか？"
+    },
+    {
+      "common_discard": "破棄"
+    },
+    {
+      "category_delete_title": "カテゴリを削除"
+    },
+    {
+      "category_delete_warning": "このカテゴリを削除してもよろしいですか？関連するすべての記録も削除されます。"
+    },
+    {
+      "settings_subscriptions": "サブスクリプション"
+    },
+    {
+      "settings_subscriptions_add": "サブスクを追加"
+    },
+    {
+      "settings_subscriptions_empty": "サブスクなし"
+    },
+    {
+      "settings_subscriptions_empty_desc": "Netflix、Spotify、ジムなどの定期的な支出をここで追跡します。"
+    },
+    {
+      "monthly": "月払い"
+    },
+    {
+      "yearly": "年払い"
+    },
+    {
+      "common_inactive": "無効"
+    },
+    {
+      "settings_subscription_delete_confirm": "このサブスクリプションを削除してもよろしいですか？自動記録の作成が停止されます。"
+    },
+    {
+      "common_ok": "OK"
+    },
+    {
+      "category_delete_error_has_records": "レコードが含まれているため、このカテゴリを削除できません。最初に関連するすべてのレコードを削除してください。"
+    },
+    {
+      "settings_recurring_records": "定期的な記録"
+    },
+    {
+      "settings_recurring_add": "定期的な記録を追加"
+    },
+    {
+      "settings_recurring_empty": "定期的な記録はありません"
+    },
+    {
+      "settings_recurring_empty_desc": "家賃、給料、公共料金などの定期的な支出や収入を自動化します。"
+    },
+    {
+      "settings_recurring_delete_confirm": "この定期的な記録を削除してもよろしいですか？自動記録の作成が停止されます。"
+    },
+    {
+      "common_repeat_every": "繰り返す間隔"
+    },
+    {
+      "common_unit_day": "日"
+    },
+    {
+      "common_unit_week": "週"
+    },
+    {
+      "common_unit_month": "月"
+    },
+    {
+      "common_unit_quarter": "四半期"
+    },
+    {
+      "common_unit_year": "年"
+    },
+    {
+      "common_recurrence": "繰り返し"
+    },
+    {
+      "common_start_date": "開始日"
+    },
+    {
+      "common_error_required": "このフィールドは必須です"
+    },
+    {
+      "common_name": "名称"
+    },
+    {
+      "common_done": "完了"
+    },
+    {
+      "common_automated": "自動"
+    },
+    {
+      "common_subscription": "サブスク"
+    },
+    {
+      "common_recurring": "定期"
+    },
+    {
+      "bottom_bar_home": "ホーム"
+    },
+    {
+      "bottom_bar_calendar": "カレンダー"
+    },
+    {
+      "bottom_bar_reports": "レポート"
+    },
+    {
+      "settings_general": "全般"
+    },
+    {
+      "settings_daily_reminder": "毎日リマインダー"
+    },
+    {
+      "settings_smart_category_sorting": "カテゴリのスマートソート"
+    },
+    {
+      "settings_tutorial": "チュートリアル"
+    },
+    {
+      "settings_terms_of_service": "利用規約"
+    },
+    {
+      "settings_select_language": "言語を選択"
+    },
+    {
+      "settings_select_currency": "通貨を選択"
+    },
+    {
+      "settings_dark_mode": "ダークモード"
+    },
+    {
+      "data_transfer_page_title": "データ転送"
+    },
+    {
+      "export_data_title": "データをエクスポート"
+    },
+    {
+      "export_data_subtitle": "すべての取引記録と設定をエクスポート"
+    },
+    {
+      "import_data_title": "データをインポート"
+    },
+    {
+      "import_data_subtitle": "バックアップファイルからデータを復元"
+    },
+    {
+      "import_data_warning": "データをインポートすると現在のローカル記録が上書きされます。よろしいですか？"
+    },
+    {
+      "common_import": "インポート"
+    },
+    {
+      "report_title": "財務レポート"
+    },
+    {
+      "report_category_breakdown": "カテゴリ分析"
+    },
+    {
+      "common_retry": "再試行"
+    },
+    {
+      "common_unknown": "不明"
+    },
+    {
+      "common_go_to_current_month": "今月に戻る"
+    },
+    {
+      "home_category_distribution": "カテゴリ分布"
+    },
+    {
+      "home_no_record": "記録が見つかりません"
+    },
+    {
+      "home_no_transactions": "取引なし"
+    },
+    {
+      "home_no_transactions_to_display": "この期間の取引はありません"
+    },
+    {
+      "home_quick_action_budget": "予算"
+    },
+    {
+      "home_recent_activity": "最近の活動"
+    },
+    {
+      "common_please_enter_amount": "金額を入力してください"
+    },
+    {
+      "common_select_date": "日付を選択"
+    },
+    {
+      "common_overview": "概要"
+    },
+    {
+      "date_format_month_year": "yyyy年MM月"
+    },
+    {
+      "budget_system_budget": "システム予算"
+    },
+    {
+      "budget_stable": "安定"
+    },
+    {
+      "budget_warning": "警告"
+    },
+    {
+      "budget_critical": "危険"
+    },
+    {
+      "budget_remaining": "残り"
+    },
+    {
+      "budget_monthly_allocation": "月間割り当て"
+    },
+    {
+      "budget_utilized": "使用済み"
+    },
+    {
+      "budget_available": "利用可能"
+    },
+    {
+      "budget_alert_threshold": "アラートしきい値"
+    },
+    {
+      "budget_alert_gates": "アラートポイント"
+    },
+    {
+      "budget_notify_description": "支出がこの割合に達したときに通知します。"
+    },
+    {
+      "budget_save_changes": "システム変更を保存"
+    },
+    {
+      "budget_discard_title": "変更を破棄しますか？"
+    },
+    {
+      "budget_discard_description": "システム予算設定に未保存の変更があります。"
+    },
+    {
+      "budget_system_offline": "システムオフライン"
+    },
+    {
+      "recent_activity_log_history": "ログ履歴"
+    },
+    {
+      "recent_activity_title": "最近の活動"
+    },
+    {
+      "recent_activity_input_on": "入力日"
+    },
+    {
+      "recent_activity_recorded_for": "記録日"
+    },
+    {
+      "recent_activity_no_activity": "アクティビティが見つかりません"
+    },
+    {
+      "recent_activity_no_records": "記録が見つかりません"
+    },
+    {
+      "budget_amount_hint": "金額を入力"
+    },
+    {
+      "budget_new_alert_point": "新しいアラートポイント"
+    }
   ],
   "ko": [
-    { "language": "한국어" },
-    { "app_title": "Koinz" },
-    { "common_delete": "삭제" },
-    { "record_add_record": "기록 추가" },
-    { "record_edit_record": "기록 편집" },
-    { "common_expense": "지출" },
-    { "common_income": "수입" },
-    { "common_save": "저장" },
-    { "common_cancel": "취소" },
-    { "common_confirm": "확인" },
-    { "common_add": "추가" },
-    { "common_category": "카테고리" },
-    { "common_amount": "금액" },
-    { "common_date": "날짜" },
-    { "common_remark": "메모" },
-    { "amount_input_hint": "0.00" },
-    { "amount_input_error_invalid": "유효한 숫자를 입력하세요" },
-    { "common_please_select_category": "카테고리를 선택하세요" },
-    { "common_all": "전체" },
-    { "common_total": "합계" },
-    { "common_balance": "잔액" },
-    { "home_tab_history": "내역" },
-    { "home_tab_calendar": "달력" },
-    { "home_total_balance": "총 잔액" },
-    { "home_monthly_expense": "이번 달 지출" },
-    { "home_monthly_income": "이번 달 수입" },
-    { "home_quick_action_add": "추가" },
-    { "home_quick_action_report": "보고서" },
-    { "home_quick_action_categories": "카테고리" },
-    { "home_quick_action_history": "내역" },
-    { "home_no_record_hint": "다른 달로 변경해 보세요" },
-    { "home_greeting": "안녕하세요, " },
-    { "report_failed_load": "기록을 불러오지 못했습니다" },
-    { "report_swipe_instruction": "차트를 스와이프하여 월 변경" },
-    { "report_view_trend": "추세" },
-    { "report_view_breakdown": "분석" },
-    { "report_trend_positive": "긍정적" },
-    { "report_trend_negative": "부정적" },
-    { "report_monthly_balance": "월간 잔액" },
-    { "common_expenses": "지출" },
-    { "record_remark_hint": "무엇을 위한 지출인가요?" },
-    { "settings_title": "설정" },
-    { "settings_user_name_placeholder": "Koinz 사용자" },
-    { "settings_account_type_free": "무료 계정" },
-    { "settings_appearance": "테마" },
-    { "settings_theme_mode": "테마 모드" },
-    { "settings_theme_light": "밝은 테마" },
-    { "settings_theme_dark": "어두운 테마" },
-    { "settings_theme_system": "시스템 설정" },
-    { "settings_localization": "언어 및 지역" },
-    { "settings_language": "언어" },
-    { "settings_currency": "통화" },
-    { "settings_notifications": "알림" },
-    { "settings_data": "데이터" },
-    { "settings_data_transfer": "데이터 전송" },
-    { "settings_about": "정보" },
-    { "settings_version": "버전" },
-    { "reminder_daily_title": "일일 알림" },
-    { "reminder_daily_description": "기록을 잊지 마세요. 지출 추적을 위한 일일 알림을 받습니다." },
-    { "reminder_enable": "일일 알림 활성화" },
-    { "reminder_time": "알림 시간" },
-    { "notification_daily_title": "Koinz 알림" },
-    { "notification_daily_body": "오늘의 거래를 기록하는 것을 잊지 마세요!" },
-    { "common_next": "다음" },
-    { "common_month_1": "1월" },
-    { "common_month_2": "2월" },
-    { "common_month_3": "3월" },
-    { "common_month_4": "4월" },
-    { "common_month_5": "5월" },
-    { "common_month_6": "6월" },
-    { "common_month_7": "7월" },
-    { "common_month_8": "8월" },
-    { "common_month_9": "9월" },
-    { "common_month_10": "10월" },
-    { "common_month_11": "11월" },
-    { "common_month_12": "12월" },
-    { "common_month_short_1": "1월" },
-    { "common_month_short_2": "2월" },
-    { "common_month_short_3": "3월" },
-    { "common_month_short_4": "4월" },
-    { "common_month_short_5": "5월" },
-    { "common_month_short_6": "6월" },
-    { "common_month_short_7": "7월" },
-    { "common_month_short_8": "8월" },
-    { "common_month_short_9": "9월" },
-    { "common_month_short_10": "10월" },
-    { "common_month_short_11": "11월" },
-    { "common_month_short_12": "12월" },
-    { "common_weekday_1": "월요일" },
-    { "common_weekday_2": "화요일" },
-    { "common_weekday_3": "수요일" },
-    { "common_weekday_4": "목요일" },
-    { "common_weekday_5": "금요일" },
-    { "common_weekday_6": "토요일" },
-    { "common_weekday_7": "일요일" },
-    { "backup_settings_title": "백업 설정" },
-    { "backup_path_title": "백업 경로" },
-    { "backup_path_not_set": "자동 백업을 활성화하려면 폴더를 선택하세요" },
-    { "backup_path_mobile_note": "참고: 모바일 OS는 외부 폴더에 대한 백그라운드 쓰기를 제한할 수 있습니다. 최상의 안정성을 위해 내부 저장소를 사용하십시오." },
-    { "backup_path_reset": "앱 문서로 재설정" },
-    { "auto_backup_title": "자동 백업" },
-    { "auto_backup_subtitle": "24시간마다 데이터를 자동으로 백업합니다" },
-    { "manual_actions_title": "수동 작업" },
-    { "export_success": "데이터가 성공적으로 백업되었습니다!" },
-    { "export_failure": "백업에 실패했습니다. 권한을 확인하세요." },
-    { "import_success": "데이터가 성공적으로 가져오기 되었습니다!" },
-    { "import_failure": "가져오기에 실패했습니다. 유효하지 않은 파일 형식입니다." },
-    { "settings_categories_management": "카테고리 관리" },
-    { "add_category_title": "카테고리 추가" },
-    { "add_category_name": "카테고리 이름" },
-    { "add_category_name_error": "카테고리 이름을 입력하세요" },
-    { "add_category_select_color": "색상 선택" },
-    { "add_category_select_icon": "아이콘 선택" },
-    { "add_category_preview": "미리보기" },
-    { "add_category_error_icon": "아이콘을 선택하세요" },
-    { "add_category_error_color": "색상을 선택하세요" },
-    { "edit_category_title": "카테고리 편집" },
-    { "smart_sorting_title": "스마트 정렬" },
-    { "smart_sorting_subtitle": "사용 빈도에 따라 카테고리를 자동으로 재정렬합니다" },
-    { "smart_sorting_active_warning": "스마트 정렬이 활성화되어 있습니다. 카테고리는 사용 빈도에 따라 정렬됩니다. 수동으로 정렬하려면 설정에서 스마트 정렬을 비활성화하세요." },
-    { "category_management_reorder_help": "길게 눌러서 드래그하면 카테고리 순서를 변경할 수 있습니다" },
-    { "category_management_long_press_edit": "길게 눌러 편집 모드로 들어갑니다" },
-    { "category_management_drag_reorder": "드래그하여 순서 변경" },
-    { "category_breakfast": "아침" },
-    { "category_lunch": "점심" },
-    { "category_dinner": "저녁" },
-    { "category_shopping": "쇼핑" },
-    { "category_digital": "디지털" },
-    { "category_transport": "교통" },
-    { "category_entertainment": "여가" },
-    { "category_medical": "의료" },
-    { "category_insurance": "보험" },
-    { "category_gift": "선물" },
-    { "category_travel": "여행" },
-    { "category_fitness": "운동" },
-    { "category_housing": "주거" },
-    { "category_others": "기타" },
-    { "category_salary": "급여" },
-    { "category_bonus": "보너스" },
-    { "category_investment_income": "투자" },
-    { "category_gift_allowance": "용돈" },
-    { "category_other_income": "기타 수입" },
-    { "common_edit": "편집" },
-    { "common_unsaved_changes": "저장되지 않은 변경 사항" },
-    { "common_discard_changes_warning": "저장되지 않은 변경 사항이 있습니다. 취소하시겠습니까?" },
-    { "common_discard": "취소" },
-    { "category_delete_title": "카테고리 삭제" },
-    { "category_delete_warning": "이 카테고리를 삭제하시겠습니까? 모든 관련 기록도 삭제됩니다." },
-    { "settings_subscriptions": "구독" },
-    { "settings_subscriptions_add": "구독 추가" },
-    { "settings_subscriptions_empty": "구독 없음" },
-    { "settings_subscriptions_empty_desc": "Netflix, Spotify, 체육관 등 정기적인 지출을 여기서 추적하세요." },
-    { "monthly": "월간" },
-    { "yearly": "연간" },
-    { "common_inactive": "비활성" },
-    { "settings_subscription_delete_confirm": "이 구독을 삭제하시겠습니까? 더 이상 자동 기록이 생성되지 않습니다." },
-    { "common_ok": "확인" },
-    { "category_delete_error_has_records": "기록이 포함되어 있어 카테고리를 삭제할 수 없습니다. 먼저 모든 관련 기록을 삭제하십시오." },
-    { "settings_recurring_records": "정기 기록" },
-    { "settings_recurring_add": "정기 기록 추가" },
-    { "settings_recurring_empty": "정기 기록이 없습니다" },
-    { "settings_recurring_empty_desc": "임대료, 급여, 공과금 등 정기적인 지출이나 수입을 자동화하세요." },
-    { "settings_recurring_delete_confirm": "이 정기 기록을 삭제하시겠습니까? 더 이상 자동 기록이 생성되지 않습니다." },
-    { "common_repeat_every": "반복 주기" },
-    { "common_unit_day": "일" },
-    { "common_unit_week": "주" },
-    { "common_unit_month": "월" },
-    { "common_unit_quarter": "분기" },
-    { "common_unit_year": "년" },
-    { "common_recurrence": "반복" },
-    { "common_start_date": "시작일" },
-    { "common_error_required": "이 필드는 필수입니다" },
-    { "common_name": "이름" },
-    { "common_done": "완료" },
-    { "common_automated": "자동" },
-    { "common_subscription": "구독" },
-    { "common_recurring": "정기" },
-    { "bottom_bar_home": "홈" },
-    { "bottom_bar_calendar": "달력" },
-    { "bottom_bar_reports": "보고서" },
-    { "settings_general": "일반" },
-    { "settings_daily_reminder": "일일 알림" },
-    { "settings_smart_category_sorting": "스마트 카테고리 정렬" },
-    { "settings_tutorial": "튜토리얼" },
-    { "settings_terms_of_service": "이용약관" },
-    { "settings_select_language": "언어 선택" },
-    { "settings_select_currency": "통화 선택" },
-    { "settings_dark_mode": "다크 모드" },
-    { "data_transfer_page_title": "데이터 전송" },
-    { "export_data_title": "데이터 내보내기" },
-    { "export_data_subtitle": "모든 거래 내역 및 설정 내보내기" },
-    { "import_data_title": "데이터 가져오기" },
-    { "import_data_subtitle": "백업 파일에서 데이터 복구" },
-    { "import_data_warning": "데이터를 가져오면 현재 로컬 기록을 덮어씁니다. 계속하시겠습니까?" },
-    { "common_import": "가져오기" },
-    { "report_title": "재무 보고서" },
-    { "report_category_breakdown": "카테고리 분석" },
-    { "common_retry": "재시도" },
-    { "common_unknown": "알 수 없음" },
-    { "common_go_to_current_month": "이번 달로 이동" },
-    { "home_category_distribution": "카테고리 분포" },
-    { "home_no_record": "기록을 찾을 수 없음" },
-    { "home_no_transactions": "내역 없음" },
-    { "home_no_transactions_to_display": "이 기간에 표시할 내역이 없습니다" },
-    { "home_quick_action_budget": "예산" },
-    { "home_recent_activity": "최근 활동" },
-    { "common_please_enter_amount": "금액을 입력하세요" },
-    { "common_select_date": "날짜 선택" },
-    { "common_overview": "개요" },
-    { "date_format_month_year": "yyyy년 M월" }
+    {
+      "language": "한국어"
+    },
+    {
+      "app_title": "Koinz"
+    },
+    {
+      "common_delete": "삭제"
+    },
+    {
+      "record_add_record": "기록 추가"
+    },
+    {
+      "record_edit_record": "기록 편집"
+    },
+    {
+      "common_expense": "지출"
+    },
+    {
+      "common_income": "수입"
+    },
+    {
+      "common_save": "저장"
+    },
+    {
+      "common_cancel": "취소"
+    },
+    {
+      "common_confirm": "확인"
+    },
+    {
+      "common_add": "추가"
+    },
+    {
+      "common_category": "카테고리"
+    },
+    {
+      "common_amount": "금액"
+    },
+    {
+      "common_date": "날짜"
+    },
+    {
+      "common_remark": "메모"
+    },
+    {
+      "amount_input_hint": "0.00"
+    },
+    {
+      "amount_input_error_invalid": "유효한 숫자를 입력하세요"
+    },
+    {
+      "common_please_select_category": "카테고리를 선택하세요"
+    },
+    {
+      "common_all": "전체"
+    },
+    {
+      "common_total": "합계"
+    },
+    {
+      "common_balance": "잔액"
+    },
+    {
+      "home_tab_history": "내역"
+    },
+    {
+      "home_tab_calendar": "달력"
+    },
+    {
+      "home_total_balance": "총 잔액"
+    },
+    {
+      "home_monthly_expense": "이번 달 지출"
+    },
+    {
+      "home_monthly_income": "이번 달 수입"
+    },
+    {
+      "home_quick_action_add": "추가"
+    },
+    {
+      "home_quick_action_report": "보고서"
+    },
+    {
+      "home_quick_action_categories": "카테고리"
+    },
+    {
+      "home_quick_action_history": "내역"
+    },
+    {
+      "home_no_record_hint": "다른 달로 변경해 보세요"
+    },
+    {
+      "home_greeting": "안녕하세요, "
+    },
+    {
+      "report_failed_load": "기록을 불러오지 못했습니다"
+    },
+    {
+      "report_swipe_instruction": "차트를 스와이프하여 월 변경"
+    },
+    {
+      "report_view_trend": "추세"
+    },
+    {
+      "report_view_breakdown": "분석"
+    },
+    {
+      "report_trend_positive": "긍정적"
+    },
+    {
+      "report_trend_negative": "부정적"
+    },
+    {
+      "report_monthly_balance": "월간 잔액"
+    },
+    {
+      "common_expenses": "지출"
+    },
+    {
+      "record_remark_hint": "무엇을 위한 지출인가요?"
+    },
+    {
+      "settings_title": "설정"
+    },
+    {
+      "settings_user_name_placeholder": "Koinz 사용자"
+    },
+    {
+      "settings_account_type_free": "무료 계정"
+    },
+    {
+      "settings_appearance": "테마"
+    },
+    {
+      "settings_theme_mode": "테마 모드"
+    },
+    {
+      "settings_theme_light": "밝은 테마"
+    },
+    {
+      "settings_theme_dark": "어두운 테마"
+    },
+    {
+      "settings_theme_system": "시스템 설정"
+    },
+    {
+      "settings_localization": "언어 및 지역"
+    },
+    {
+      "settings_language": "언어"
+    },
+    {
+      "settings_currency": "통화"
+    },
+    {
+      "settings_notifications": "알림"
+    },
+    {
+      "settings_data": "데이터"
+    },
+    {
+      "settings_data_transfer": "데이터 전송"
+    },
+    {
+      "settings_about": "정보"
+    },
+    {
+      "settings_version": "버전"
+    },
+    {
+      "reminder_daily_title": "일일 알림"
+    },
+    {
+      "reminder_daily_description": "기록을 잊지 마세요. 지출 추적을 위한 일일 알림을 받습니다."
+    },
+    {
+      "reminder_enable": "일일 알림 활성화"
+    },
+    {
+      "reminder_time": "알림 시간"
+    },
+    {
+      "notification_daily_title": "Koinz 알림"
+    },
+    {
+      "notification_daily_body": "오늘의 거래를 기록하는 것을 잊지 마세요!"
+    },
+    {
+      "common_next": "다음"
+    },
+    {
+      "common_month_1": "1월"
+    },
+    {
+      "common_month_2": "2월"
+    },
+    {
+      "common_month_3": "3월"
+    },
+    {
+      "common_month_4": "4월"
+    },
+    {
+      "common_month_5": "5월"
+    },
+    {
+      "common_month_6": "6월"
+    },
+    {
+      "common_month_7": "7월"
+    },
+    {
+      "common_month_8": "8월"
+    },
+    {
+      "common_month_9": "9월"
+    },
+    {
+      "common_month_10": "10월"
+    },
+    {
+      "common_month_11": "11월"
+    },
+    {
+      "common_month_12": "12월"
+    },
+    {
+      "common_month_short_1": "1월"
+    },
+    {
+      "common_month_short_2": "2월"
+    },
+    {
+      "common_month_short_3": "3월"
+    },
+    {
+      "common_month_short_4": "4월"
+    },
+    {
+      "common_month_short_5": "5월"
+    },
+    {
+      "common_month_short_6": "6월"
+    },
+    {
+      "common_month_short_7": "7월"
+    },
+    {
+      "common_month_short_8": "8월"
+    },
+    {
+      "common_month_short_9": "9월"
+    },
+    {
+      "common_month_short_10": "10월"
+    },
+    {
+      "common_month_short_11": "11월"
+    },
+    {
+      "common_month_short_12": "12월"
+    },
+    {
+      "common_weekday_1": "월요일"
+    },
+    {
+      "common_weekday_2": "화요일"
+    },
+    {
+      "common_weekday_3": "수요일"
+    },
+    {
+      "common_weekday_4": "목요일"
+    },
+    {
+      "common_weekday_5": "금요일"
+    },
+    {
+      "common_weekday_6": "토요일"
+    },
+    {
+      "common_weekday_7": "일요일"
+    },
+    {
+      "backup_settings_title": "백업 설정"
+    },
+    {
+      "backup_path_title": "백업 경로"
+    },
+    {
+      "backup_path_not_set": "자동 백업을 활성화하려면 폴더를 선택하세요"
+    },
+    {
+      "backup_path_mobile_note": "참고: 모바일 OS는 외부 폴더에 대한 백그라운드 쓰기를 제한할 수 있습니다. 최상의 안정성을 위해 내부 저장소를 사용하십시오."
+    },
+    {
+      "backup_path_reset": "앱 문서로 재설정"
+    },
+    {
+      "auto_backup_title": "자동 백업"
+    },
+    {
+      "auto_backup_subtitle": "24시간마다 데이터를 자동으로 백업합니다"
+    },
+    {
+      "manual_actions_title": "수동 작업"
+    },
+    {
+      "export_success": "데이터가 성공적으로 백업되었습니다!"
+    },
+    {
+      "export_failure": "백업에 실패했습니다. 권한을 확인하세요."
+    },
+    {
+      "import_success": "데이터가 성공적으로 가져오기 되었습니다!"
+    },
+    {
+      "import_failure": "가져오기에 실패했습니다. 유효하지 않은 파일 형식입니다."
+    },
+    {
+      "settings_categories_management": "카테고리 관리"
+    },
+    {
+      "add_category_title": "카테고리 추가"
+    },
+    {
+      "add_category_name": "카테고리 이름"
+    },
+    {
+      "add_category_name_error": "카테고리 이름을 입력하세요"
+    },
+    {
+      "add_category_select_color": "색상 선택"
+    },
+    {
+      "add_category_select_icon": "아이콘 선택"
+    },
+    {
+      "add_category_preview": "미리보기"
+    },
+    {
+      "add_category_error_icon": "아이콘을 선택하세요"
+    },
+    {
+      "add_category_error_color": "색상을 선택하세요"
+    },
+    {
+      "edit_category_title": "카테고리 편집"
+    },
+    {
+      "smart_sorting_title": "스마트 정렬"
+    },
+    {
+      "smart_sorting_subtitle": "사용 빈도에 따라 카테고리를 자동으로 재정렬합니다"
+    },
+    {
+      "smart_sorting_active_warning": "스마트 정렬이 활성화되어 있습니다. 카테고리는 사용 빈도에 따라 정렬됩니다. 수동으로 정렬하려면 설정에서 스마트 정렬을 비활성화하세요."
+    },
+    {
+      "category_management_reorder_help": "길게 눌러서 드래그하면 카테고리 순서를 변경할 수 있습니다"
+    },
+    {
+      "category_management_long_press_edit": "길게 눌러 편집 모드로 들어갑니다"
+    },
+    {
+      "category_management_drag_reorder": "드래그하여 순서 변경"
+    },
+    {
+      "category_breakfast": "아침"
+    },
+    {
+      "category_lunch": "점심"
+    },
+    {
+      "category_dinner": "저녁"
+    },
+    {
+      "category_shopping": "쇼핑"
+    },
+    {
+      "category_digital": "디지털"
+    },
+    {
+      "category_transport": "교통"
+    },
+    {
+      "category_entertainment": "여가"
+    },
+    {
+      "category_medical": "의료"
+    },
+    {
+      "category_insurance": "보험"
+    },
+    {
+      "category_gift": "선물"
+    },
+    {
+      "category_travel": "여행"
+    },
+    {
+      "category_fitness": "운동"
+    },
+    {
+      "category_housing": "주거"
+    },
+    {
+      "category_others": "기타"
+    },
+    {
+      "category_salary": "급여"
+    },
+    {
+      "category_bonus": "보너스"
+    },
+    {
+      "category_investment_income": "투자"
+    },
+    {
+      "category_gift_allowance": "용돈"
+    },
+    {
+      "category_other_income": "기타 수입"
+    },
+    {
+      "common_edit": "편집"
+    },
+    {
+      "common_unsaved_changes": "저장되지 않은 변경 사항"
+    },
+    {
+      "common_discard_changes_warning": "저장되지 않은 변경 사항이 있습니다. 취소하시겠습니까?"
+    },
+    {
+      "common_discard": "취소"
+    },
+    {
+      "category_delete_title": "카테고리 삭제"
+    },
+    {
+      "category_delete_warning": "이 카테고리를 삭제하시겠습니까? 모든 관련 기록도 삭제됩니다."
+    },
+    {
+      "settings_subscriptions": "구독"
+    },
+    {
+      "settings_subscriptions_add": "구독 추가"
+    },
+    {
+      "settings_subscriptions_empty": "구독 없음"
+    },
+    {
+      "settings_subscriptions_empty_desc": "Netflix, Spotify, 체육관 등 정기적인 지출을 여기서 추적하세요."
+    },
+    {
+      "monthly": "월간"
+    },
+    {
+      "yearly": "연간"
+    },
+    {
+      "common_inactive": "비활성"
+    },
+    {
+      "settings_subscription_delete_confirm": "이 구독을 삭제하시겠습니까? 더 이상 자동 기록이 생성되지 않습니다."
+    },
+    {
+      "common_ok": "확인"
+    },
+    {
+      "category_delete_error_has_records": "기록이 포함되어 있어 카테고리를 삭제할 수 없습니다. 먼저 모든 관련 기록을 삭제하십시오."
+    },
+    {
+      "settings_recurring_records": "정기 기록"
+    },
+    {
+      "settings_recurring_add": "정기 기록 추가"
+    },
+    {
+      "settings_recurring_empty": "정기 기록이 없습니다"
+    },
+    {
+      "settings_recurring_empty_desc": "임대료, 급여, 공과금 등 정기적인 지출이나 수입을 자동화하세요."
+    },
+    {
+      "settings_recurring_delete_confirm": "이 정기 기록을 삭제하시겠습니까? 더 이상 자동 기록이 생성되지 않습니다."
+    },
+    {
+      "common_repeat_every": "반복 주기"
+    },
+    {
+      "common_unit_day": "일"
+    },
+    {
+      "common_unit_week": "주"
+    },
+    {
+      "common_unit_month": "월"
+    },
+    {
+      "common_unit_quarter": "분기"
+    },
+    {
+      "common_unit_year": "년"
+    },
+    {
+      "common_recurrence": "반복"
+    },
+    {
+      "common_start_date": "시작일"
+    },
+    {
+      "common_error_required": "이 필드는 필수입니다"
+    },
+    {
+      "common_name": "이름"
+    },
+    {
+      "common_done": "완료"
+    },
+    {
+      "common_automated": "자동"
+    },
+    {
+      "common_subscription": "구독"
+    },
+    {
+      "common_recurring": "정기"
+    },
+    {
+      "bottom_bar_home": "홈"
+    },
+    {
+      "bottom_bar_calendar": "달력"
+    },
+    {
+      "bottom_bar_reports": "보고서"
+    },
+    {
+      "settings_general": "일반"
+    },
+    {
+      "settings_daily_reminder": "일일 알림"
+    },
+    {
+      "settings_smart_category_sorting": "스마트 카테고리 정렬"
+    },
+    {
+      "settings_tutorial": "튜토리얼"
+    },
+    {
+      "settings_terms_of_service": "이용약관"
+    },
+    {
+      "settings_select_language": "언어 선택"
+    },
+    {
+      "settings_select_currency": "통화 선택"
+    },
+    {
+      "settings_dark_mode": "다크 모드"
+    },
+    {
+      "data_transfer_page_title": "데이터 전송"
+    },
+    {
+      "export_data_title": "데이터 내보내기"
+    },
+    {
+      "export_data_subtitle": "모든 거래 내역 및 설정 내보내기"
+    },
+    {
+      "import_data_title": "데이터 가져오기"
+    },
+    {
+      "import_data_subtitle": "백업 파일에서 데이터 복구"
+    },
+    {
+      "import_data_warning": "데이터를 가져오면 현재 로컬 기록을 덮어씁니다. 계속하시겠습니까?"
+    },
+    {
+      "common_import": "가져오기"
+    },
+    {
+      "report_title": "재무 보고서"
+    },
+    {
+      "report_category_breakdown": "카테고리 분석"
+    },
+    {
+      "common_retry": "재시도"
+    },
+    {
+      "common_unknown": "알 수 없음"
+    },
+    {
+      "common_go_to_current_month": "이번 달로 이동"
+    },
+    {
+      "home_category_distribution": "카테고리 분포"
+    },
+    {
+      "home_no_record": "기록을 찾을 수 없음"
+    },
+    {
+      "home_no_transactions": "내역 없음"
+    },
+    {
+      "home_no_transactions_to_display": "이 기간에 표시할 내역이 없습니다"
+    },
+    {
+      "home_quick_action_budget": "예산"
+    },
+    {
+      "home_recent_activity": "최근 활동"
+    },
+    {
+      "common_please_enter_amount": "금액을 입력하세요"
+    },
+    {
+      "common_select_date": "날짜 선택"
+    },
+    {
+      "common_overview": "개요"
+    },
+    {
+      "date_format_month_year": "yyyy년 M월"
+    },
+    {
+      "budget_system_budget": "시스템 예산"
+    },
+    {
+      "budget_stable": "안정"
+    },
+    {
+      "budget_warning": "경고"
+    },
+    {
+      "budget_critical": "위험"
+    },
+    {
+      "budget_remaining": "남음"
+    },
+    {
+      "budget_monthly_allocation": "월간 할당"
+    },
+    {
+      "budget_utilized": "사용됨"
+    },
+    {
+      "budget_available": "사용 가능"
+    },
+    {
+      "budget_alert_threshold": "알림 임계값"
+    },
+    {
+      "budget_alert_gates": "알림 지점"
+    },
+    {
+      "budget_notify_description": "지출이 이 비율에 도달하면 알림을 받습니다."
+    },
+    {
+      "budget_save_changes": "시스템 변경 사항 저장"
+    },
+    {
+      "budget_discard_title": "변경 사항을 취소하시겠습니까?"
+    },
+    {
+      "budget_discard_description": "시스템 예산 설정에 저장되지 않은 변경 사항이 있습니다."
+    },
+    {
+      "budget_system_offline": "시스템 오프라인"
+    },
+    {
+      "recent_activity_log_history": "로그 기록"
+    },
+    {
+      "recent_activity_title": "최근 활동"
+    },
+    {
+      "recent_activity_input_on": "입력일"
+    },
+    {
+      "recent_activity_recorded_for": "기록일"
+    },
+    {
+      "recent_activity_no_activity": "활동을 찾을 수 없음"
+    },
+    {
+      "recent_activity_no_records": "기록을 찾을 수 없음"
+    },
+    {
+      "budget_amount_hint": "금액 입력"
+    },
+    {
+      "budget_new_alert_point": "새 알림 지점"
+    }
   ]
 }
