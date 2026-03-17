@@ -631,7 +631,7 @@
       "date_format_month_year": "MMMM yyyy"
     },
     {
-      "budget_system_budget": "System Budget"
+      "budget_system_budget": "Monthly Budget"
     },
     {
       "budget_stable": "Stable"
@@ -664,13 +664,13 @@
       "budget_notify_description": "Notify me when spending reaches this percentage."
     },
     {
-      "budget_save_changes": "Save System Changes"
+      "budget_save_changes": "Save Changes"
     },
     {
       "budget_discard_title": "Discard Changes?"
     },
     {
-      "budget_discard_description": "You have unsaved changes in your system budget settings."
+      "budget_discard_description": "You have unsaved changes in your monthly budget settings."
     },
     {
       "budget_system_offline": "System Offline"
@@ -698,6 +698,33 @@
     },
     {
       "budget_new_alert_point": "New Alert Point"
+    },
+    {
+      "showcase_home_month_picker": "Tap here to change the month and view history."
+    },
+    {
+      "showcase_home_balance_card": "Here is your total balance and monthly summary."
+    },
+    {
+      "showcase_home_recent_activity": "Check your most recent transactions here."
+    },
+    {
+      "showcase_main_fab": "Tap to add a new transaction manually."
+    },
+    {
+      "showcase_quick_add": "Long-press the button for quick-add options based on your habits!"
+    },
+    {
+      "showcase_home_quick_actions": "Access important features quickly from here."
+    },
+    {
+      "showcase_main_bottom_nav": "Explore more features like Calendar and Reports from the navigation bar."
+    },
+    {
+      "quick_action_add_expense": "Add Expense"
+    },
+    {
+      "quick_action_add_income": "Add Income"
     }
   ],
   "zh_TW": [
@@ -1248,7 +1275,7 @@
       "settings_daily_reminder": "每日提醒"
     },
     {
-      "settings_smart_category_sorting": "智慧類別排序"
+      "settings_smart_category_sorting": "智能類別排序"
     },
     {
       "settings_tutorial": "教學"
@@ -1332,7 +1359,7 @@
       "date_format_month_year": "yyyy年MM月"
     },
     {
-      "budget_system_budget": "系統預算"
+      "budget_system_budget": "每月預算"
     },
     {
       "budget_stable": "穩定"
@@ -1365,13 +1392,13 @@
       "budget_notify_description": "當支出達到此百分比時通知我。"
     },
     {
-      "budget_save_changes": "儲存系統變更"
+      "budget_save_changes": "儲存變更"
     },
     {
       "budget_discard_title": "捨棄變更？"
     },
     {
-      "budget_discard_description": "您的系統預算設定有未儲存的變更。"
+      "budget_discard_description": "您的每月預算設定有未儲存的變更。"
     },
     {
       "budget_system_offline": "系統離線"
@@ -1399,6 +1426,33 @@
     },
     {
       "budget_new_alert_point": "新增警報點"
+    },
+    {
+      "showcase_home_month_picker": "點擊此處切換月份並查看歷史紀錄。"
+    },
+    {
+      "showcase_home_balance_card": "這裡顯示您的總結餘和本月摘要。"
+    },
+    {
+      "showcase_home_recent_activity": "在此查看您最近的交易活動。"
+    },
+    {
+      "showcase_main_fab": "點擊此處手動新增交易。"
+    },
+    {
+      "showcase_quick_add": "長按按鈕可根據您的習慣快速新增！"
+    },
+    {
+      "showcase_home_quick_actions": "從這裡快速存取重要功能。"
+    },
+    {
+      "showcase_main_bottom_nav": "從導覽列探索更多功能，例如日曆和報表。"
+    },
+    {
+      "quick_action_add_expense": "新增支出"
+    },
+    {
+      "quick_action_add_income": "新增收入"
     }
   ],
   "zh_HK": [
@@ -1949,7 +2003,7 @@
       "settings_daily_reminder": "每日提醒"
     },
     {
-      "settings_smart_category_sorting": "智慧類別排序"
+      "settings_smart_category_sorting": "智能類別排序"
     },
     {
       "settings_tutorial": "教學"
@@ -2031,6 +2085,33 @@
     },
     {
       "date_format_month_year": "yyyy年MM月"
+    },
+    {
+      "showcase_home_month_picker": "點擊呢度切換月份並查看歷史紀錄。"
+    },
+    {
+      "showcase_home_balance_card": "呢度顯示你嘅總結餘同埋呢個月嘅摘要。"
+    },
+    {
+      "showcase_home_recent_activity": "喺呢度查看你最近嘅交易活動。"
+    },
+    {
+      "showcase_main_fab": "點擊呢度手動新增交易。"
+    },
+    {
+      "showcase_quick_add": "長按按鈕可以根據你嘅習慣快速新增！"
+    },
+    {
+      "showcase_home_quick_actions": "喺呢度快速存取重要功能。"
+    },
+    {
+      "showcase_main_bottom_nav": "喺導覽列探索更多功能，例如日曆同埋報表。"
+    },
+    {
+      "quick_action_add_expense": "新增支出"
+    },
+    {
+      "quick_action_add_income": "新增收入"
     }
   ],
   "zh_CN": [
@@ -2587,9 +2668,6 @@
       "settings_tutorial": "教程"
     },
     {
-      "settings_terms_of_service": "服务条款"
-    },
-    {
       "settings_select_language": "选择语言"
     },
     {
@@ -2665,7 +2743,7 @@
       "date_format_month_year": "yyyy年MM月"
     },
     {
-      "budget_system_budget": "系统预算"
+      "budget_system_budget": "每月预算"
     },
     {
       "budget_stable": "稳定"
@@ -2698,13 +2776,13 @@
       "budget_notify_description": "当支出达到此百分比时通知我。"
     },
     {
-      "budget_save_changes": "保存系统更改"
+      "budget_save_changes": "保存变更"
     },
     {
       "budget_discard_title": "放弃更改？"
     },
     {
-      "budget_discard_description": "您的系统预算设置有未保存的更改。"
+      "budget_discard_description": "您的每月预算设置有未保存的更改。"
     },
     {
       "budget_system_offline": "系统离线"
@@ -2732,6 +2810,33 @@
     },
     {
       "budget_new_alert_point": "新增警报点"
+    },
+    {
+      "showcase_home_month_picker": "点击此处切换月份并查看历史记录。"
+    },
+    {
+      "showcase_home_balance_card": "这里显示您的总余额和本月摘要。"
+    },
+    {
+      "showcase_home_recent_activity": "在此查看您最近的交易活动。"
+    },
+    {
+      "showcase_main_fab": "点击此处手动添加交易。"
+    },
+    {
+      "showcase_quick_add": "长按按钮可根据您的习惯快速添加！"
+    },
+    {
+      "showcase_home_quick_actions": "从这里快速访问重要功能。"
+    },
+    {
+      "showcase_main_bottom_nav": "从导航栏探索更多功能，例如日历和报表。"
+    },
+    {
+      "quick_action_add_expense": "添加支出"
+    },
+    {
+      "quick_action_add_income": "添加收入"
     }
   ],
   "ja": [
@@ -3366,7 +3471,7 @@
       "date_format_month_year": "yyyy年MM月"
     },
     {
-      "budget_system_budget": "システム予算"
+      "budget_system_budget": "月間予算"
     },
     {
       "budget_stable": "安定"
@@ -3399,13 +3504,13 @@
       "budget_notify_description": "支出がこの割合に達したときに通知します。"
     },
     {
-      "budget_save_changes": "システム変更を保存"
+      "budget_save_changes": "変更を保存"
     },
     {
       "budget_discard_title": "変更を破棄しますか？"
     },
     {
-      "budget_discard_description": "システム予算設定に未保存の変更があります。"
+      "budget_discard_description": "月間予算設定に未保存の変更があります。"
     },
     {
       "budget_system_offline": "システムオフライン"
@@ -3433,6 +3538,33 @@
     },
     {
       "budget_new_alert_point": "新しいアラートポイント"
+    },
+    {
+      "showcase_home_month_picker": "ここをタップして月を切り替え、履歴を確認します。"
+    },
+    {
+      "showcase_home_balance_card": "ここでは総残高と今月の概要が表示されます。"
+    },
+    {
+      "showcase_home_recent_activity": "最近の取引履歴をここで確認できます。"
+    },
+    {
+      "showcase_main_fab": "タップして新しい取引を手動で追加します。"
+    },
+    {
+      "showcase_quick_add": "ボタンを長押しすると、習慣に基づいたクイック追加オプションが表示されます！"
+    },
+    {
+      "showcase_home_quick_actions": "ここから重要な機能に素早くアクセスできます。"
+    },
+    {
+      "showcase_main_bottom_nav": "ナビゲーションバーからカレンダーやレポートなどの詳細機能を探索してください。"
+    },
+    {
+      "quick_action_add_expense": "支出を追加"
+    },
+    {
+      "quick_action_add_income": "収入を追加"
     }
   ],
   "ko": [
@@ -4067,7 +4199,7 @@
       "date_format_month_year": "yyyy년 M월"
     },
     {
-      "budget_system_budget": "시스템 예산"
+      "budget_system_budget": "월간 예산"
     },
     {
       "budget_stable": "안정"
@@ -4100,13 +4232,13 @@
       "budget_notify_description": "지출이 이 비율에 도달하면 알림을 받습니다."
     },
     {
-      "budget_save_changes": "시스템 변경 사항 저장"
+      "budget_save_changes": "변경 사항 저장"
     },
     {
       "budget_discard_title": "변경 사항을 취소하시겠습니까?"
     },
     {
-      "budget_discard_description": "시스템 예산 설정에 저장되지 않은 변경 사항이 있습니다."
+      "budget_discard_description": "월간 예산 설정에 저장되지 않은 변경 사항이 있습니다."
     },
     {
       "budget_system_offline": "시스템 오프라인"
@@ -4134,6 +4266,33 @@
     },
     {
       "budget_new_alert_point": "새 알림 지점"
+    },
+    {
+      "showcase_home_month_picker": "여기를 탭하여 월을 변경하고 내역을 확인하세요."
+    },
+    {
+      "showcase_home_balance_card": "여기에서 총 잔액과 월간 요약을 확인할 수 있습니다."
+    },
+    {
+      "showcase_home_recent_activity": "최근 거래 내역을 여기에서 확인하세요."
+    },
+    {
+      "showcase_main_fab": "수동으로 새 거래를 추가하려면 탭하세요."
+    },
+    {
+      "showcase_quick_add": "버튼을 길게 누르면 습관에 따른 빠른 추가 옵션이 나타납니다!"
+    },
+    {
+      "showcase_home_quick_actions": "여기에서 중요한 기능에 빠르게 액세스하세요。"
+    },
+    {
+      "showcase_main_bottom_nav": "네비게이션 바에서 캘린더 및 보고서와 같은 더 많은 기능을 탐색하세요."
+    },
+    {
+      "quick_action_add_expense": "지출 추가"
+    },
+    {
+      "quick_action_add_income": "수입 추가"
     }
-  ]
+  ],
 }
