@@ -7,6 +7,15 @@
       "app_title": "Koinz"
     },
     {
+      "onboard_welcome_title": "Tell me your name"
+    },
+    {
+      "onboard_welcome_subtitle": "Let's personalize your finance journey."
+    },
+    {
+      "onboard_name_hint": "Enter your name"
+    },
+    {
       "common_delete": "Delete"
     },
     {
@@ -29,6 +38,15 @@
     },
     {
       "common_confirm": "Confirm"
+    },
+    {
+      "common_danger_zone": "Danger Zone"
+    },
+    {
+      "common_clear_all_data": "Clear All Data"
+    },
+    {
+      "common_clear_data_warning": "This will permanently delete all your records, budgets, and subscriptions. This action cannot be undone."
     },
     {
       "common_add": "Add"
@@ -127,10 +145,16 @@
       "settings_title": "Settings"
     },
     {
-      "settings_user_name_placeholder": "Koinz User"
+      "settings_user_name_placeholder": "User"
     },
     {
       "settings_account_type_free": "Free Account"
+    },
+    {
+      "settings_account_type_normal": "Normal Account"
+    },
+    {
+      "settings_edit_name_title": "Edit Name"
     },
     {
       "settings_appearance": "Appearance"
@@ -725,6 +749,21 @@
     },
     {
       "quick_action_add_income": "Add Income"
+    },
+    {
+      "common_success": "Success"
+    },
+    {
+      "common_error": "Error"
+    },
+    {
+      "common_ok": "OK"
+    },
+    {
+      "clear_data_success": "All data has been cleared successfully."
+    },
+    {
+      "clear_data_failure": "Failed to clear data. Please try again."
     }
   ],
   "zh_TW": [
@@ -1453,6 +1492,21 @@
     },
     {
       "quick_action_add_income": "新增收入"
+    },
+    {
+      "common_success": "成功"
+    },
+    {
+      "common_error": "錯誤"
+    },
+    {
+      "common_ok": "確定"
+    },
+    {
+      "clear_data_success": "所有數據已成功清除。"
+    },
+    {
+      "clear_data_failure": "清除數據失敗。請再試一次。"
     }
   ],
   "zh_HK": [
